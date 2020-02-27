@@ -30,6 +30,13 @@ html{
   left: -30;
 }
 
+.big{
+  font-size: 20px;
+  text-decoration: none;
+  color:orange;
+  background-color: gray;
+}
+
 /* home page divs*/
   #parent{
       background-color:#ffa500;
@@ -54,9 +61,7 @@ html{
       color:black;
 }
 
-.social{
-  margin-top: -10px;
-}
+
 
 
 
@@ -109,7 +114,7 @@ html{
 }
 
 .edu{
-   padding-bottom: -5px;
+  background-color: red;
 }
 
   footer{
