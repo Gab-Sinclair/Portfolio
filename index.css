@@ -10,13 +10,13 @@ html{
     min-height:60vh;
    
 }
-  .bg{
+  /* .bg{
       background-image: url("images/clouds3.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
   
-}
+} */
 
 .bio{
   margin:10px auto 10px;
