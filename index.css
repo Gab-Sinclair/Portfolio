@@ -11,7 +11,7 @@ html{
    
 }
   .bg{
-      background-image: url("clouds3.jpg");
+      background-image: url("images/clouds3.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
