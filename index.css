@@ -10,13 +10,6 @@ html{
     min-height:60vh;
    
 }
-  /* .bg{
-      background-image: url("images/clouds3.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  
-} */
 
 .bio{
   margin:10px auto 10px;
@@ -66,30 +59,40 @@ html{
 
 
 /*Navigation */
-  ul{
-    list-style-type:none;
-    width:500px;
-    margin:0 auto;
-    overflow:hidden;
+nav{
+  background-color: rgb(163, 163, 163);
+  width:auto;
+  height: 100px;
 }
-  li{
-      float:left;
-      border:solid black 1px;
-
+.centered{
+  background-color: chartreuse;
+  width:100px;
 }
 
-  li a{
+.left{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.right{
+  background-color: black;
+  float:right;
+  margin-right:20px;
+  margin-top:-20px
+}
+
+  /* li a{
       display:inline-block;
-      color:black;
+      color:rgb(216, 74, 74);
       padding:8px;
       background-color:white;
       text-decoration:none;
       width:130px;
-
-}
+} */
 
    a:hover{
-     background-color:lightblue;
+     background-color:rgb(30, 172, 101);
+     color:rgb(255, 255, 255);
 }
 
 
