@@ -59,14 +59,11 @@ html{
 
 
 /*Navigation */
-nav{
-  background-color: rgb(163, 163, 163);
-  width:auto;
-  height: 100px;
-}
+
 .centered{
   background-color: chartreuse;
   width:100px;
+  margin-left:45%;
 }
 
 .left{
@@ -80,7 +77,43 @@ nav{
   margin-right:20px;
   margin-top:-20px
 }
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px 18px;
+  text-decoration: none;
+  font-size: 30px;
+  margin:20px
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
   /* li a{
       display:inline-block;
       color:rgb(216, 74, 74);
