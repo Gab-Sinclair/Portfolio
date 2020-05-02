@@ -5,22 +5,20 @@ html{
   
   
 body{
-    background-color:rgb(198, 230, 255);
+    background-color:rgb(231, 231, 231);
     margin:0;
     min-height:60vh;
    
 }
 
 .bio{
-  margin:10px auto 10px;
+  margin:10px 10px 10px;
   position: relative;
-  left:-40;
-  width:350px;
+  width:auto;
 }
 
 .education{
-  width:450;
-  left: -30;
+  width:auto;
 }
 /* class for web design page code link */
 .big{
@@ -36,18 +34,24 @@ body{
 
 /* home page divs*/
   #parent{
-      background-color:rgb(12, 71, 56);;
-      height:800px;
+      height:750px;
       width:auto;
       position:relative;
       margin:100px auto;
-      color: white;
+      color: #444
 }
 
  #about{
      margin:0 auto;
-     background-color: white;
-     padding-bottom: 30px;
+     background-color:rgb(153, 202, 221);
+     margin:20px;
+     padding-bottom: 15px;
+     color: white;
+     font-size: 18px;
+     margin:10px 10px 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: black;
+
  }
  
    #info{
@@ -56,9 +60,15 @@ body{
 }
 
   #intro{
-      color:black;
+    margin:20px 20px;
+    padding-bottom: -30px;
+    margin:10px 10px 10px;
+
 }
 
+.title{
+  color:#444;
+margin-left: -4px;}
 
 
 
@@ -67,7 +77,7 @@ body{
 .topnav {
   position: relative;
   overflow: hidden;
-  background-color: #333;
+  background-color:#444;
 }
 
 .topnav a {
@@ -86,7 +96,7 @@ body{
 }
 
 .topnav a.active {
-  background-color: rgb(198, 230, 255);
+  background-color: rgb(231, 231, 231);
 
 }
 
@@ -125,6 +135,7 @@ body{
     line-height:10%;
     margin-bottom:10px;
     padding:30px;
+    font-size: 50px;
 }
    
   h3{
@@ -145,7 +156,7 @@ body{
   height:100px;
   margin-top:-100px;
   clear:both;
-  background-color:#333;
+  background-color:#444;
   left:0;
   position:relative;
   color:white;
