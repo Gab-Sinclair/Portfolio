@@ -50,7 +50,6 @@ body{
      font-size: 18px;
      margin:10px 10px 10px;
      font-family: Arial, Helvetica, sans-serif;
-     font-style: black;
 
  }
  
@@ -66,9 +65,15 @@ body{
 
 }
 
-.title{
-  color:#444;
-margin-left: -4px;}
+   #subjects{
+    text-align: center;
+}
+
+
+  .title{
+    color:#444;
+    margin-left: -4px;
+    }
 
 
 
@@ -121,7 +126,7 @@ margin-left: -4px;}
 /* Link style */
    a:hover{
      background-color:rgb(30, 172, 101);
-     color:rgb(255, 255, 255);
+     color:#444
 }
 
 
@@ -163,8 +168,22 @@ margin-left: -4px;}
   text-align:center;
 }
 
+.route{
+  background-color: #444;
+  margin:20px;
+}
+
+.path{
+  border: 5px solid black 
+
+}
 
 
+.resume{
+  text-align: center;
+  font-size: 20px;
+  color: "gray";
+}
 
 
 /*Home page grid */
