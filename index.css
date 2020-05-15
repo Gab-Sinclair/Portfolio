@@ -37,7 +37,7 @@ body{
       height:750px;
       width:auto;
       position:relative;
-      margin:100px auto;
+      margin:30px auto;
       color: #444
 }
 
@@ -65,15 +65,43 @@ body{
 
 }
 
-   #subjects{
-    text-align: center;
-}
-
-
   .title{
     color:#444;
     margin-left: -4px;
     }
+    
+
+
+
+
+
+/* button div */
+   #subjects{
+    text-align: center;
+    position: relative;
+   }
+
+   #hovD{
+    background-color: rgb(207, 230, 230);
+   }
+
+  #hovD:hover  {
+  background-color: rgb(169, 170, 236);
+   }
+
+
+
+  .path{
+      border: 5px solid black;
+     }
+        
+  .route{
+    background-color: #444;
+    margin:20px;
+    position:relative;
+  }
+
+
 
 
 
@@ -136,10 +164,9 @@ body{
 /*General styling */
 
   h1{
-    text-align:left;
-    line-height:10%;
+    text-align:center;
     margin-bottom:10px;
-    padding:30px;
+    padding:5px;
     font-size: 50px;
 }
    
@@ -168,24 +195,13 @@ body{
   text-align:center;
 }
 
-.route{
-  background-color: #444;
-  margin:20px;
-  position:relative;
-  
-}
 
-.path{
-  border: 5px solid black 
-
-}
 
 
 .resume{
   text-align: left;
   font-size: 20px;
   color: "gray";
-  background-color: red;
 }
 
 
