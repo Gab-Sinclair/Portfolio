@@ -137,8 +137,7 @@ body{
 
 
 .topnav a.active {
-  background-color: rgb(231, 231, 231);
-
+  margin-bottom: 30px;
 }
 
 .topnav-centered a {
