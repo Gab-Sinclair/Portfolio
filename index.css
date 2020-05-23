@@ -113,8 +113,13 @@ body{
     position:relative;
   }
 
+.botlog{
+  background-color: orange;
+  margin-top:10;
+  padding: 5;
+  position: relative;
 
-
+}
 
 
 
@@ -137,7 +142,7 @@ body{
 
 
 .topnav a.active {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .topnav-centered a {
@@ -203,10 +208,12 @@ body{
 
 
 
-.resume{
+.footer{
   text-align: left;
   font-size: 20px;
   color: "gray";
+  background-color: turquoise;
+  position: absolute;
 }
 
 
@@ -255,7 +262,8 @@ body{
 
 .center{
   text-align: center;
-  display:inline;
+  background-color: tomato;
+  display:inline-flex
 }
 
 
