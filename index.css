@@ -55,7 +55,6 @@ body{
 
  #about{
      margin:0 auto;
-     background-color:rgb(153, 202, 221);
      margin:20px;
      padding-bottom: 15px;
      color: white;
@@ -91,21 +90,19 @@ body{
    #subjects{
     text-align: center;
     position: relative;
+    margin-top: 30px;;
    }
 
-   #hovD{
-    background-color: rgb(207, 230, 230);
-   }
-
-  #hovD:hover  {
-  background-color: rgb(169, 170, 236);
-   }
 
 
 
   .path{
       border: 5px solid black;
      }
+
+  .path:hover{
+    border: 6px solid  #228B22;
+  }
         
   .route{
     background-color: #444;
@@ -113,13 +110,6 @@ body{
     position:relative;
   }
 
-.botlog{
-  background-color: orange;
-  margin-top:10;
-  padding: 5;
-  position: relative;
-
-}
 
 
 
@@ -233,25 +223,21 @@ body{
 
 /* resume download button */
 .myButton {
-	box-shadow: 0px 1px 0px 0px #fff6af;
-	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-	background-color:#ffec64;
+
 	border-radius:6px;
-	border:1px solid #ffaa22;
+	border:1px solid #228B22;
 	display:inline-block;
 	cursor:pointer;
-	color:#333333;
+	color:white;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
 	padding:13px 49px;
 	text-decoration:none;
-  text-shadow:0px 1px 0px #ffee66;
   margin:40px 10px ;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	background-color:#ffab23;
+	background-color:#228B22;
 }
 .myButton:active {
 	position:relative;
@@ -262,7 +248,6 @@ body{
 
 .center{
   text-align: center;
-  background-color: tomato;
   display:inline-flex
 }
 
