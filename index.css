@@ -11,7 +11,7 @@ body{
    
 }
 
-.bio{
+.facts{
   margin:10px 10px 10px;
   position: relative;
   width:auto;
@@ -50,17 +50,19 @@ body{
       width:auto;
       position:relative;
       margin:30px auto;
-      color: #444
+      color: #444;
 }
 
  #about{
      margin:0 auto;
-     margin:20px;
+     margin:30px;
      padding-bottom: 15px;
      color: white;
      font-size: 18px;
-     margin:10px 10px 10px;
+     /* margin:10px 10px 10px; */
      font-family: Arial, Helvetica, sans-serif;
+     background-color: white;
+     
 
  }
  
@@ -105,7 +107,6 @@ body{
   }
         
   .route{
-    background-color: #444;
     margin:20px;
     position:relative;
   }
@@ -152,7 +153,7 @@ body{
 }
 
 .hom:hover {
-  border: 3px solid white;
+  border: 3px solid #228B22;
 }
 
 
@@ -334,10 +335,8 @@ body{
   height:auto;
 }
 
-.education{
-  width:350;
-    left: 10;
-}
+
+
 ul{
   margin:0 auto;
   width:200px;
@@ -349,6 +348,7 @@ ul{
 
 .own{
   position: relative;
+  
 }
 
 #intro{
