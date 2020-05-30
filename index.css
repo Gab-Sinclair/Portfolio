@@ -406,22 +406,10 @@ ul{
     display: none; 
  }
 
+ .own{
+   margin-right:10px;
+ }
 
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  margin:20px
-}
-.topnav-grid{
-  display: grid;
-  grid-template-columns: auto;
-}
-.navItem{
-  margin: 15px auto;
-
-}
 
 }
 
@@ -430,21 +418,5 @@ ul{
     font-size: 50px;
   }
 
-  
-  .topnav a {
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin:20px
-  }
 
-  .topnav-grid{
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .navItem{
-    margin: 15px auto;
-  
-  }
 }
