@@ -10,6 +10,16 @@ body{
     min-height:60vh;
    
 }
+.bottom-parent{
+  text-align:center;
+  margin:20px, 30px;
+
+}
+
+.bottom-nav{
+  margin: 30px;  
+  margin-bottom: 90px;
+}
 
 .facts{
   margin:10px 10px 10px;
@@ -310,7 +320,7 @@ body{
       padding:30px;
       border:1px solid black;
       margin:15px;
-      background-color:#ffa500;
+      background-color:#228B22;
 
       
 }
