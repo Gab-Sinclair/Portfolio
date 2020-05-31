@@ -10,16 +10,32 @@ body{
     min-height:60vh;
    
 }
+
+
+
 .bottom-parent{
   text-align:center;
   margin:20px, 30px;
-
 }
 
 .bottom-nav{
   margin: 30px;  
   margin-bottom: 90px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.bottom-nav:hover{
+  color:#228B22;
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 10px;
+}
+
+
 
 .facts{
   margin:10px 10px 10px;
@@ -189,6 +205,7 @@ body{
       line-height:10%;
       font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 .organizized{
