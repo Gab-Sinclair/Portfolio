@@ -11,146 +11,6 @@ body{
    
 }
 
-
-
-
-
-
-
-
-
-
-
-.bottom-parent{
-  text-align:center;
-  margin:20px, 30px;
-}
-
-.bottom-nav{
-  margin: 30px;  
-  margin-bottom: 90px;
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.bottom-nav:hover{
-  color:#228B22;
-  border: 1px solid black;
-  border-radius: 3%;
-  padding: 10px;
-}
-
-
-
-.facts{
-  margin:10px 10px 10px;
-  position: relative;
-  width:auto;
-}
-
-.education{
-  width:auto;
-}
-/* class for web design page code link */
-.big{
-  font-size: 20px;
-  text-decoration: none;
-  color:rgb(12, 71, 56);
-  background-color: gray;
-}
-
-
-
-.sM{
-  filter:gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  transition: all 1s;
-  height:38px;
-  width: auto;
-}
-.sM:hover{
-  -webkit-filter: grayscale(0);
-  filter: none;
-}
-
-
-/* home page divs*/
-  #parent{
-      height:750px;
-      width:auto;
-      position:relative;
-      margin:30px auto;
-      color: #444;
-}
-
- #about{
-     margin:0 auto;
-     margin:30px;
-     padding-bottom: 15px;
-     color: white;
-     font-size: 18px;
-     /* margin:10px 10px 10px; */
-     font-family: Arial, Helvetica, sans-serif;
-     background-color: white;
-     
-
- }
- 
-   #info{
-      margin-top:20px;
-      color:black;
-      margin-left:15px;
-}
-
-  #intro{
-    margin:20px 20px;
-    padding-bottom: -30px;
-    text-align:center ;
-    display: none;
-
-}
-
-  .title{
-    color:#005BAD;
-    margin-left: -4px;
-    }
-    
-
-
-
-
-
-/* button div */
-   #subjects{
-    text-align: center;
-    position: relative;
-    margin-top: 30px;
-    margin-bottom:30px;
-   }
-
-
-
-
-  .path{
-      border: 5px solid black;
-     }
-
-  .path:hover{
-    border: 6px solid  #228B22;
-  }
-        
-  .route{
-    margin:20px;
-    position:relative;
-  }
-
-
-
-
 /*Navigation */
 .topnav {
   position: relative;
@@ -187,6 +47,135 @@ body{
   float: right;
 }
 
+/* other pages middle navigation buttons */
+.mid-parent{
+  text-align:center;
+  margin:20px, 30px;
+}
+
+.mid-nav{
+  margin: 30px;  
+  margin-bottom: 90px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mid-nav:hover{
+  color:#228B22;
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 10px;
+}
+
+
+/* Home page */
+.facts{
+  margin:10px 10px 10px;
+  position: relative;
+  width:auto;
+}
+
+.sM{
+  filter:gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 1s;
+  height:38px;
+  width: auto;
+}
+.sM:hover{
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+
+/* home page divs*/
+  #parent{
+      height:750px;
+      width:auto;
+      position:relative;
+      margin:30px auto;
+      color: #444;
+}
+
+ #about{
+     margin:0 auto;
+     margin:30px;
+     padding-bottom: 15px;
+     color: white;
+     font-size: 18px;
+     /* margin:10px 10px 10px; */
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: white;
+     
+
+ }
+ /* second section in parent div */
+   #info{
+      margin-top:20px;
+      color:black;
+      margin-left:15px;
+}
+/* logo in parent div */
+  #logo{
+    margin:20px 20px;
+    padding-bottom: -30px;
+    text-align:center ;
+    display: none;
+}
+
+.title{
+  color:#005BAD;
+  margin-left: -4px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* button div */
+   #subjects{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom:30px;
+   }
+
+
+
+
+  .path{
+      border: 5px solid black;
+     }
+
+  .path:hover{
+    border: 6px solid  #228B22;
+  }
+        
+  .route{
+    margin:20px;
+    position:relative;
+  }
+
+
+
+
+
+
 .hom{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -205,6 +194,15 @@ body{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+
+/* class for web design page code link */
+.big{
+  font-size: 20px;
+  text-decoration: none;
+  color:rgb(12, 71, 56);
+  background-color: gray;
 }
    
   h3{
@@ -362,7 +360,7 @@ body{
   }
 
   @media(max-width:879px){
-    #intro{
+    #logo{
       display: block;
     }
   }

@@ -1,5 +1,5 @@
 $primary-color:rgb(231, 231, 231);
-
+$text-color: black;
 
 html{
     height: 100%;
@@ -12,4 +12,136 @@ body{
     margin:0;
     min-height:60vh;
    
+}
+
+
+/* Top Navigation */
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color:rgb(3, 40, 82);
+  width: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px 18px;
+  text-decoration: none;
+  font-size: 30px;
+  margin:20px
+
+}
+.topnav a.active {
+  margin-bottom: 40px;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+    /* top nav classes*/ 
+          /* Topnav social media hover  */
+          .sM{
+            filter:gray;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            transition: all 1s;
+            height:38px;
+            width: auto;
+          }
+          .sM:hover{
+            -webkit-filter: grayscale(0);
+            filter: none;
+          }
+
+
+
+/* home page main content div*/
+#parent{
+  height:750px;
+  width:auto;
+  position:relative;
+  margin:30px auto;
+  color: #444;
+}
+      #about{
+        margin:0 auto;
+        margin:30px;
+        padding-bottom: 15px;
+        color: white;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+       }
+
+        /* Logo section in parent div */
+        #logo{
+          margin:20px 20px;
+          padding-bottom: -30px;
+          text-align:center ;
+          display: none;
+          }
+       /* second section in parent div */
+        #info{
+          margin-top:20px;
+          color:black;
+          margin-left:15px;
+          }
+
+      /*Home page classes */
+
+            /* second section parent div class */
+            .own{
+              position: relative;
+              }
+            /* H3 homepage */
+            .title{
+              color:#005BAD;
+              margin-left: -4px;
+              }
+
+            /* Home page paragraph style */
+            .facts{
+              margin:10px 10px 10px;
+              position: relative;
+              width:auto;
+              }
+
+
+
+
+
+
+
+/* other pages middle navigation buttons */
+.mid-parent{
+  text-align:center;
+  margin:20px, 30px;
+}
+
+.mid-nav{
+  margin: 30px;  
+  margin-bottom: 90px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mid-nav:hover{
+  color:#228B22;
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 10px;
 }
