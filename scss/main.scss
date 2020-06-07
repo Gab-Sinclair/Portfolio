@@ -200,7 +200,20 @@ body{
 
 
 
-   
+     /*Grid for web and grahic pages*/
+     .grid-container{
+      display:grid;
+      grid-template-columns:auto auto auto;
+      padding:5px;
+    }
+
+    .grItem{
+      padding:30px;
+      border:1px solid black;
+      margin:15px;
+      background-color:#228B22;
+      
+    }
 
 
 
@@ -225,21 +238,6 @@ body{
         height:300px; 
         border: 2px solid black; 
         background-color:black;
-      }
-
-      /*Grid for second pages*/
-      .grid-container{
-        display:grid;
-        grid-template-columns:auto auto auto;
-        padding:5px;
-      }
-
-      .grItem{
-        padding:30px;
-        border:1px solid black;
-        margin:15px;
-        background-color:#228B22;
-        
       }
 
 
@@ -280,6 +278,9 @@ body{
   border-radius: 3%;
   padding: 10px;
 }
+
+
+
 
  /* footer classes */
 
