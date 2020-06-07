@@ -227,7 +227,20 @@ body{
         background-color:black;
       }
 
+      /*Grid for second pages*/
+      .grid-container{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        padding:5px;
+      }
 
+      .grItem{
+        padding:30px;
+        border:1px solid black;
+        margin:15px;
+        background-color:#228B22;
+        
+      }
 
 
 
@@ -296,3 +309,91 @@ body{
                   text-align: center;
                   display:inline-flex
                 }
+
+/* media queries */
+@media(max-width:880px){
+  .topnav a.active {
+      display: none; 
+   }
+  
+   .own{
+     margin-right:10px;
+   }
+  
+  }
+
+  @media(max-width:879px){
+    #logo{
+      display: block;
+    }
+  }
+  @media (max-width:800px){
+    /* home page Grid*/
+          .grid-home{
+          grid-template-columns:auto;
+          }
+    
+          .grid-Ihome{
+          margin:0 auto;
+          grid-template-columns:auto;
+          }
+    
+      /* home page divs */
+             #parent {
+                width:auto;
+                padding:20px;
+                margin:20px;
+                height:auto;
+            }
+    
+            #subjects {
+                margin-bottom: 20%;
+            }
+      
+            #info{
+                margin:10px 65px 10px;
+              }
+    
+        /*home page classes*/
+            .own {
+                position: relative;
+              }
+            .route {
+                padding: 40px;
+                margin:20px
+              }
+    
+    
+     /*Grid on web and graphic*/
+          .grid-container {
+              display:grid;
+              grid-template-columns:auto;
+          }
+    
+          .grItem {
+              margin:15 auto;
+          }
+          .wi {
+              margin:10px auto 10px;
+           }
+    
+    
+      footer{
+          width:100%;
+          background-color:rgb(3, 40, 82);
+          left:0;
+          height: 300px;
+          position:absolute;
+          color:white;
+          text-align:center;
+      }
+    
+    }
+    
+    
+    
+    @media(max-width:660px){
+    .topnav a{
+      font-size: 50px;
+      }
+    }  
