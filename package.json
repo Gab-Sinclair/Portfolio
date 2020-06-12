@@ -1,6 +1,5 @@
 {
   "name": "Portfolio",
-  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gab-Sinclair/Portfolio/issues"
   },
-  "homepage": "https://github.com/Gab-Sinclair/Portfolio#readme"
+  "homepage": "https://github.com/Gab-Sinclair/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
