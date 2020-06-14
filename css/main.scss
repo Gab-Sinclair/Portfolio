@@ -95,7 +95,7 @@ body{
             height:38px;
             width: auto;
 
-            :hover {
+            &:hover {
               -webkit-filter: grayscale(0);
               filter: none;
             }
@@ -105,7 +105,7 @@ body{
           /* name in left corner style */
           .hom {
             font-family: $font-family;
-            :hover {
+            &:hover {
               border: 3px solid $third-color;
             }
           }
@@ -194,7 +194,7 @@ body{
                .path {
                 border: 5px solid $accent;
                 
-                  :hover {
+                  &:hover {
                     border: 5px solid  $third-color;
                   }
               }
@@ -278,7 +278,7 @@ body{
   padding: 10px;
   font-family: $font-family;
 
-  :hover {
+  &:hover {
     color:$third-color;
     border: 1px solid $accent;
     border-radius: 3%;
@@ -308,7 +308,7 @@ body{
                     text-decoration:none;
                     margin:40px 10px ;
 
-                    :hover {
+                    &:hover {
                       background-color:$third-color;
                     }
                   }
