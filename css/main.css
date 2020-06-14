@@ -1,0 +1,300 @@
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  background-color: #e7e7e7;
+  margin: 0;
+  min-height: 60vh; }
+
+/*General styling */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h3 {
+  text-align: left;
+  margin-left: 50px;
+  line-height: 10%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+footer {
+  width: 100%;
+  height: 200px;
+  margin-top: -100px;
+  clear: both;
+  background-color: #032852;
+  left: 0;
+  position: relative;
+  color: white;
+  text-align: center; }
+
+/* Top Navigation */
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #032852;
+  width: auto; }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px 18px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 20px; }
+
+.topnav a.active {
+  margin-bottom: 40px; }
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.topnav-right {
+  float: right; }
+
+/* top nav classes*/
+/* Topnav social media hover  */
+.sM {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 1s;
+  height: 38px;
+  width: auto; }
+
+.sM:hover {
+  -webkit-filter: grayscale(0);
+  filter: none; }
+
+/* name in left corner style */
+.hom {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.hom:hover {
+  border: 3px solid #228B22; }
+
+/*Home page grid */
+.grid-home {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px; }
+
+.grid-Ihome {
+  padding-top: 5px;
+  padding-bottom: 30px; }
+
+/* home page main content div*/
+#parent {
+  height: 750px;
+  width: auto;
+  position: relative;
+  margin: 30px auto;
+  color: #444; }
+
+#about {
+  margin: 0 auto;
+  margin: 30px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white; }
+
+/* Logo section in parent div */
+#logo {
+  margin: 20px 20px;
+  padding-bottom: -30px;
+  text-align: center;
+  display: none; }
+
+/* second section in parent div */
+#info {
+  margin-top: 20px;
+  color: black;
+  margin-left: 15px; }
+
+/* graphic and web design section buttons */
+#subjects {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/*Home page classes */
+/* second section parent div class */
+.own {
+  position: relative; }
+
+/* H3 homepage */
+.title {
+  color: #005BAD;
+  margin-left: -4px; }
+
+/* Home page paragraph style */
+.facts {
+  margin: 10px 10px 10px;
+  position: relative;
+  width: auto; }
+
+/* Image class in subject section */
+.path {
+  border: 5px solid black; }
+
+.path:hover {
+  border: 5px solid  #228B22; }
+
+/* a href class in subject section */
+.route {
+  margin: 20px;
+  position: relative; }
+
+/*Grid for web and grahic pages*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px; }
+
+.grItem {
+  padding: 30px;
+  border: 1px solid black;
+  margin: 15px;
+  background-color: #228B22; }
+
+/* Web design page classes */
+/* div code link */
+.big {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0c4738;
+  background-color: gray; }
+
+/* Web design picture class */
+.wh {
+  background-color: white;
+  height: 60px;
+  width: 304px; }
+
+/*website design div */
+.wi {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: black; }
+
+/* Graphic design page classes */
+/* Graphic design div*/
+.gi {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: white; }
+
+/* web and grpahic middle navigation buttons */
+.mid-parent {
+  text-align: center;
+  margin: 20px, 30px; }
+
+.mid-nav {
+  margin: 30px;
+  margin-bottom: 90px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.mid-nav:hover {
+  color: #228B22;
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 10px; }
+
+/* footer classes */
+/* resume download button */
+.myResume {
+  border-radius: 6px;
+  border: 1px solid #228B22;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 49px;
+  text-decoration: none;
+  margin: 40px 10px; }
+
+.myResume:hover {
+  background-color: #228B22; }
+
+.myResume:active {
+  position: relative;
+  top: 1px; }
+
+/* Website copyright */
+.center {
+  text-align: center;
+  display: inline-flex; }
+
+/* media queries */
+@media (max-width: 880px) {
+  .topnav a.active {
+    display: none; }
+  .own {
+    margin-right: 10px; } }
+
+@media (max-width: 879px) {
+  #logo {
+    display: block; } }
+
+@media (max-width: 800px) {
+  /* home page Grid*/
+  .grid-home {
+    grid-template-columns: auto; }
+  .grid-Ihome {
+    margin: 0 auto;
+    grid-template-columns: auto; }
+  /* home page divs */
+  #parent {
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    height: auto; }
+  #subjects {
+    margin-bottom: 20%; }
+  #info {
+    margin: 10px 65px 10px; }
+  /*home page classes*/
+  .own {
+    position: relative; }
+  .route {
+    padding: 40px;
+    margin: 20px; }
+  /*Grid on web and graphic*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto; }
+  .grItem {
+    margin: 15 auto; }
+  .wi {
+    margin: 10px auto 10px; }
+  footer {
+    width: 100%;
+    background-color: #032852;
+    left: 0;
+    height: 300px;
+    position: absolute;
+    color: white;
+    text-align: center; } }
+
+@media (max-width: 660px) {
+  .topnav a {
+    font-size: 50px; } }
