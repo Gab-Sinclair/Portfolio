@@ -3,6 +3,7 @@ $font-family : Arial, Helvetica, sans-serif;
 $darker-color: rgb(3, 40, 82);
 $accent:black;
 $visibility-color:white;
+$third-color: #228B22;
 
 
 html{
@@ -105,7 +106,7 @@ body{
           }
 
           .hom:hover {
-            border: 3px solid #228B22;
+            border: 3px solid $third-color;
           }
 
 
@@ -191,7 +192,7 @@ body{
                 border: 5px solid $accent;
               }
                     .path:hover {
-                      border: 5px solid  #228B22;
+                      border: 5px solid  $third-color;
                     }
                 
                /* a href class in subject section */
@@ -213,7 +214,7 @@ body{
       padding:30px;
       border:1px solid $accent;
       margin:15px;
-      background-color:#228B22;
+      background-color:$third-color;
       
     }
 
@@ -275,7 +276,7 @@ body{
 }
 
 .mid-nav:hover {
-  color:#228B22;
+  color:$third-color;
   border: 1px solid $accent;
   border-radius: 3%;
   padding: 10px;
@@ -289,7 +290,7 @@ body{
                 /* resume download button */
                 .myResume {
                     border-radius:6px;
-                    border:1px solid #228B22;
+                    border:1px solid $third-color;
                     display:inline-block;
                     cursor:pointer;
                     color:$visibility-color;
@@ -301,7 +302,7 @@ body{
                     margin:40px 10px ;
                   }
                 .myResume:hover {
-                    background-color:#228B22;
+                    background-color:$third-color;
                 }
                 .myResume:active {
                     position:relative;
