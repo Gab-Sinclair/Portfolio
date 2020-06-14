@@ -1,7 +1,8 @@
 $primary-color:rgb(231, 231, 231);
-$text-color: black;
 $font-family : Arial, Helvetica, sans-serif;
 $darker-color: rgb(3, 40, 82);
+$accent:black;
+$visibility-color:white;
 
 
 html{
@@ -40,7 +41,7 @@ body{
       background-color:$darker-color;
       left:0;
       position:relative;
-      color:white;
+      color:$visibility-color;
       text-align:center;
 }
 
@@ -137,10 +138,10 @@ body{
         margin:0 auto;
         margin:30px;
         padding-bottom: 15px;
-        color: white;
+        color: $visibility-color;
         font-size: 18px;
         font-family: $font-family;
-        background-color: white;
+        background-color: $visibility-color;
        }
 
         /* Logo section in parent div */
@@ -153,7 +154,7 @@ body{
        /* second section in parent div */
         #info {
           margin-top:20px;
-          color:black;
+          color:$accent;
           margin-left:15px;
           }
         /* graphic and web design section buttons */
@@ -187,7 +188,7 @@ body{
 
               /* Image class in subject section */
                .path {
-                border: 5px solid black;
+                border: 5px solid $accent;
               }
                     .path:hover {
                       border: 5px solid  #228B22;
@@ -210,7 +211,7 @@ body{
 
     .grItem{
       padding:30px;
-      border:1px solid black;
+      border:1px solid $accent;
       margin:15px;
       background-color:#228B22;
       
@@ -229,7 +230,7 @@ body{
       }
       /* Web design picture class */
       .wh {
-          background-color:white;
+          background-color:$visibility-color;
           height:60px;
           width:304px;
       }
@@ -237,8 +238,8 @@ body{
       .wi{
         width:300px; 
         height:300px; 
-        border: 2px solid black; 
-        background-color:black;
+        border: 2px solid $accent; 
+        background-color:$accent;
       }
 
 
@@ -250,8 +251,8 @@ body{
       .gi{
         width: 300px ; 
         height: 300px; 
-        border: 2px solid black; 
-        background-color:white;
+        border: 2px solid $accent; 
+        background-color:$visibility-color;
       }
 
 
@@ -267,7 +268,7 @@ body{
   margin: 30px;  
   margin-bottom: 90px;
   text-decoration: none;
-  color: black;
+  color: $accent;
   padding: 10px;
   font-family: $font-family;
 
@@ -275,7 +276,7 @@ body{
 
 .mid-nav:hover {
   color:#228B22;
-  border: 1px solid black;
+  border: 1px solid $accent;
   border-radius: 3%;
   padding: 10px;
 }
@@ -291,7 +292,7 @@ body{
                     border:1px solid #228B22;
                     display:inline-block;
                     cursor:pointer;
-                    color:white;
+                    color:$visibility-color;
                     font-family:$font-family;
                     font-size:15px;
                     font-weight:bold;
@@ -386,7 +387,7 @@ body{
           left:0;
           height: 300px;
           position:absolute;
-          color:white;
+          color:$visibility-color;
           text-align:center;
       }
     
