@@ -94,20 +94,23 @@ body{
             transition: all 1s;
             height:38px;
             width: auto;
+
+            :hover {
+              -webkit-filter: grayscale(0);
+              filter: none;
+            }
           }
-          .sM:hover {
-            -webkit-filter: grayscale(0);
-            filter: none;
-          }
+         
 
           /* name in left corner style */
           .hom {
             font-family: $font-family;
+            :hover {
+              border: 3px solid $third-color;
+            }
           }
 
-          .hom:hover {
-            border: 3px solid $third-color;
-          }
+          
 
 
 
@@ -190,10 +193,12 @@ body{
               /* Image class in subject section */
                .path {
                 border: 5px solid $accent;
+                
+                  :hover {
+                    border: 5px solid  $third-color;
+                  }
               }
-                    .path:hover {
-                      border: 5px solid  $third-color;
-                    }
+                   
                 
                /* a href class in subject section */
                 .route {
@@ -273,14 +278,16 @@ body{
   padding: 10px;
   font-family: $font-family;
 
+  :hover {
+    color:$third-color;
+    border: 1px solid $accent;
+    border-radius: 3%;
+    padding: 10px;
+  }
+
 }
 
-.mid-nav:hover {
-  color:$third-color;
-  border: 1px solid $accent;
-  border-radius: 3%;
-  padding: 10px;
-}
+
 
 
 
@@ -300,10 +307,12 @@ body{
                     padding:13px 49px;
                     text-decoration:none;
                     margin:40px 10px ;
+
+                    :hover {
+                      background-color:$third-color;
+                    }
                   }
-                .myResume:hover {
-                    background-color:$third-color;
-                }
+                
                 .myResume:active {
                     position:relative;
                     top:1px;
