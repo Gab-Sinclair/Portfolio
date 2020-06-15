@@ -217,54 +217,13 @@ body{
 
     .grItem{
       padding:30px;
-      border:1px solid $accent;
       margin:15px;
       background-color:$third-color;
       
     }
 
 
-
-/* Web design page classes */
-
-      /* div code link */
-      .big {
-        font-size: 20px;
-        text-decoration: none;
-        color:rgb(12, 71, 56);
-        background-color: gray;
-      }
-      /* Web design picture class */
-      .wh {
-          background-color:$visibility-color;
-          height:60px;
-          width:304px;
-      }
-     /*website design div */
-      .wi{
-        width:300px; 
-        height:300px; 
-        border: 2px solid $accent; 
-        background-color:$accent;
-      }
-
-
-
-
-/* Graphic design page classes */
-    
-    /* Graphic design div*/
-      .gi{
-        width: 300px ; 
-        height: 300px; 
-        border: 2px solid $accent; 
-        background-color:$visibility-color;
-      }
-
-
-
-
-/* web and grpahic middle navigation buttons */
+    /* web and grpahic middle navigation buttons */
 .mid-parent {
   text-align:center;
   margin:20px, 30px;
@@ -286,6 +245,63 @@ body{
   }
 
 }
+
+    /* web and graphic paragraph class */
+    .wh {
+      background-color:$visibility-color;
+      height:60px;
+      width:304px;
+  }
+
+
+
+
+
+/* Web design page classes */
+
+      /* div code link */
+      .big {
+        font-size: 20px;
+        text-decoration: none;
+        color:rgb(12, 71, 56);
+        background-color: gray;
+      }
+      
+     /*website design div */
+      .wi{
+        width:300px; 
+        height:275px; 
+        border: 2px solid $accent; 
+        background-color:$accent;
+      }
+
+  /*Web design id*/
+    #web{
+      margin-bottom:100px;
+    }
+
+
+
+
+
+
+/* Graphic design page classes */
+    
+    /* Graphic design div*/
+      .gi{
+        width: 300px ; 
+        height: 275px; 
+        border: 2px solid $accent; 
+        background-color:$visibility-color;
+      }
+
+/*Graphic design id*/ 
+        #graphics{
+        margin-bottom:100px;
+      }
+
+
+
 
 
 
