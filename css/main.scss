@@ -4,6 +4,7 @@ $darker-color: rgb(3, 40, 82);
 $accent:black;
 $visibility-color:white;
 $third-color: #228B22;
+$light-color: #005BAD;
 
 
 html{
@@ -217,7 +218,7 @@ body{
     .grItem{
       padding:30px;
       margin:15px;
-      background-color:$third-color;
+      background-color:$light-color;
       
     }
 
