@@ -163,7 +163,8 @@ footer {
 .grItem {
   padding: 30px;
   margin: 15px;
-  background-color: #005BAD; }
+  background-color: #005BAD;
+  border-radius: 20px; }
 
 /* web and grpahic middle navigation buttons */
 .mid-parent {
@@ -186,8 +187,13 @@ footer {
 /* web and graphic paragraph class */
 .wh {
   background-color: white;
-  height: 60px;
-  width: 304px; }
+  height: 75px;
+  width: 304px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 10px; }
 
 /* Web design page classes */
 /* div code link */

@@ -219,7 +219,7 @@ body{
       padding:30px;
       margin:15px;
       background-color:$light-color;
-      
+      border-radius: 20px;
     }
 
 
@@ -249,8 +249,13 @@ body{
     /* web and graphic paragraph class */
     .wh {
       background-color:$visibility-color;
-      height:60px;
+      height:75px;
       width:304px;
+      font-family:$font-family;
+      font-size: 14px;
+      padding-top:10px ;
+      text-align: center;
+      border-radius: 10px;
   }
 
 /* Web design page classes */
