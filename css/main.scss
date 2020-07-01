@@ -7,6 +7,7 @@ $third-color: #228B22;
 $light-color: #005BAD;
 
 
+
 html{
     height: 100%;
     margin: 0;
@@ -15,7 +16,7 @@ html{
 body{
     background-color:$primary-color;
     margin:0;
-    min-height:60vh;
+    min-height:100vh;
    
 }
 /*General styling */
@@ -38,15 +39,28 @@ body{
       width:100%;
       height:200px;
       margin-top:-100px;
-      clear:both;
+      clear: both !important;
+      position: relative;
+      bottom:0; left:0;
+      display: block;
+      float: none;
       background-color:$darker-color;
-      left:0;
-      position:relative;
       color:$visibility-color;
       text-align:center;
 }
 
+.gdFooter{
+  width:100%;
+  height:200px;
+  margin-top:320px;
+  position: relative;
+  bottom: 0;
+  display: block;
+  background-color:$darker-color;
+  color:$visibility-color;
+  text-align:center;
 
+}
 
 
 
@@ -133,6 +147,7 @@ body{
 /* home page main content div*/
 #parent {
   height:750px;
+  min-height: 100%;
   width:auto;
   position:relative;
   margin:30px auto;
@@ -295,7 +310,11 @@ body{
 
 /*Graphic design id*/ 
         #graphics{
-        margin-bottom:100px;
+        margin-bottom:-100px;
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 200px;
+        overflow: auto;
       }
 
 
@@ -403,12 +422,27 @@ body{
           width:100%;
           background-color:$darker-color;
           left:0;
+          bottom: 0;
           height: 300px;
-          position:absolute;
+          position:fixed;
           color:$visibility-color;
           text-align:center;
       }
-    
+
+
+      
+      .gdFooter{
+        width:100%;
+        height:200px;
+        margin-top:90px;
+        position: relative;
+        bottom: 0;
+        display: block;
+        background-color:$darker-color;
+        color:$visibility-color;
+        text-align:center;
+      
+      }
     }
     
     

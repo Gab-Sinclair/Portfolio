@@ -5,7 +5,7 @@ html {
 body {
   background-color: #e7e7e7;
   margin: 0;
-  min-height: 60vh; }
+  min-height: 100vh; }
 
 /*General styling */
 h1 {
@@ -25,10 +25,24 @@ footer {
   width: 100%;
   height: 200px;
   margin-top: -100px;
-  clear: both;
-  background-color: #032852;
-  left: 0;
+  clear: both !important;
   position: relative;
+  bottom: 0;
+  left: 0;
+  display: block;
+  float: none;
+  background-color: #032852;
+  color: white;
+  text-align: center; }
+
+.gdFooter {
+  width: 100%;
+  height: 200px;
+  margin-top: 320px;
+  position: relative;
+  bottom: 0;
+  display: block;
+  background-color: #032852;
   color: white;
   text-align: center; }
 
@@ -93,6 +107,7 @@ footer {
 /* home page main content div*/
 #parent {
   height: 750px;
+  min-height: 100%;
   width: auto;
   position: relative;
   margin: 30px auto;
@@ -224,7 +239,11 @@ footer {
 
 /*Graphic design id*/
 #graphics {
-  margin-bottom: 100px; }
+  margin-bottom: -100px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 200px;
+  overflow: auto; }
 
 /* footer classes */
 /* resume download button */
@@ -298,8 +317,19 @@ footer {
     width: 100%;
     background-color: #032852;
     left: 0;
+    bottom: 0;
     height: 300px;
-    position: absolute;
+    position: fixed;
+    color: white;
+    text-align: center; }
+  .gdFooter {
+    width: 100%;
+    height: 200px;
+    margin-top: 90px;
+    position: relative;
+    bottom: 0;
+    display: block;
+    background-color: #032852;
     color: white;
     text-align: center; } }
 
