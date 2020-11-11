@@ -336,4 +336,5 @@ h3 {
   .topnav a {
     font-size: 50px; }
   .navItem {
-    margin: auto; } }
+    margin: auto;
+    text-align: center; } }
