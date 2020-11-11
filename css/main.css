@@ -282,9 +282,7 @@ h3 {
 
 @media (max-width: 879px) {
   #logo {
-    display: block; }
-  .navItem {
-    margin: auto; } }
+    display: block; } }
 
 @media (max-width: 800px) {
   /* home page Grid*/
@@ -293,8 +291,6 @@ h3 {
   .grid-Ihome {
     margin: 0 auto;
     grid-template-columns: auto; }
-  .navItem {
-    margin: auto; }
   /* home page divs */
   #parent {
     width: auto;
@@ -334,7 +330,4 @@ h3 {
 
 @media (max-width: 660px) {
   .topnav a {
-    font-size: 50px; }
-  .navItem {
-    margin: auto;
-    text-align: center; } }
+    font-size: 50px; } }
