@@ -80,7 +80,7 @@ h3 {
 
 /*Name in left corner positioning*/
 .navItem {
-  position: relative; }
+  display: block; }
 
 /* name in left corner style */
 .hom {
@@ -275,7 +275,8 @@ h3 {
   .topnav a.active {
     display: none; }
   .navItem {
-    margin: auto; }
+    margin: auto;
+    text-align: center; }
   .own {
     margin-right: 10px; } }
 

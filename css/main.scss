@@ -108,7 +108,7 @@ body{
          
           /*Name in left corner positioning*/ 
           .navItem{
-            position: relative;
+             display:block;
           }
 
           /* name in left corner style */
@@ -351,6 +351,7 @@ body{
    }
   .navItem{
     margin: auto;
+    text-align: center;
   }
    .own{
      margin-right:10px;
