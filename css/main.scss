@@ -361,7 +361,11 @@ body{
     #logo{
       display: block;
     }
+    .navItem{
+      margin: auto;
+    }
   }
+
   @media (max-width:800px){
     /* home page Grid*/
           .grid-home{
