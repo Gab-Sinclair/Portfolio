@@ -376,7 +376,9 @@ body{
           margin:0 auto;
           grid-template-columns:auto;
           }
-    
+          .navItem{
+            margin: auto;
+          }
       /* home page divs */
              #parent {
                 width:auto;
@@ -445,5 +447,8 @@ body{
     @media(max-width:660px){
     .topnav a{
       font-size: 50px;
+      }
+      .navItem{
+        margin: auto;
       }
     }  
