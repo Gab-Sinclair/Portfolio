@@ -274,11 +274,10 @@ h3 {
     grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    padding: 20px;
+    padding: 0px;
     height: auto;
     width: 100%;
     text-align: center;
-    position: relative;
     display: block; } }
 
 @media (max-width: 880px) {
