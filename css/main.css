@@ -274,16 +274,26 @@ h3 {
     grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    width: auto;
     padding: 20px;
     margin: 20px;
-    height: auto; }
+    height: auto;
+    width: 100%;
+    position: relative; }
   #subjects {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20%; }
+    margin-bottom: 20%;
+    width: 100%;
+    position: relative; }
   #info {
-    margin: 10px 10px; } }
+    margin: 10px 10px;
+    width: 100%;
+    position: relative; }
+  /*home page classes*/
+  .own {
+    position: relative;
+    margin: 0 auto;
+    width: 100%; } }
 
 @media (max-width: 880px) {
   .topnav a.active {
@@ -308,20 +318,27 @@ h3 {
     grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    width: auto;
     padding: 20px;
     margin: 20px;
-    height: auto; }
+    height: auto;
+    width: 100%;
+    position: relative; }
   #subjects {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20%; }
+    margin-bottom: 20%;
+    width: 100%;
+    position: relative; }
   #info {
-    margin: 10px 10px; }
+    margin: 10px 10px;
+    width: 100%;
+    position: relative; }
   /*home page classes*/
   .own {
     position: relative;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%;
+    height: 200px; }
   .route {
     padding: 40px;
     margin: 20px; }
