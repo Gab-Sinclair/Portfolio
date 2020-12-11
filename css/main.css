@@ -335,9 +335,11 @@ h3 {
     display: grid;
     grid-template-columns: auto; }
   .grItem {
-    margin: 5 auto; }
+    margin: 5px auto; }
   .wi {
-    margin: 5px auto 5px; }
+    margin: 5px auto; }
+  .gi {
+    margin: 5px auto; }
   .gdFoo {
     width: 100%;
     height: 200px;
