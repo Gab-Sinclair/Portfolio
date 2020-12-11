@@ -351,11 +351,13 @@ body{
 @media(max-width:350px){
 /* home page Grid*/
 .grid-home{
+  display:grid;
   grid-template-columns:auto;
   margin:0 auto;
   }
 
   .grid-Ihome{
+    display:grid;
   margin:0 auto;
   grid-template-columns:auto;
   }
@@ -416,11 +418,13 @@ body{
   @media (max-width:700px){
     /* home page Grid*/
           .grid-home{
+          display:grid;
           grid-template-columns:auto;
           margin:0 auto;
           }
     
           .grid-Ihome{
+          display:grid;
           margin:0 auto;
           grid-template-columns:auto;
           }
@@ -468,10 +472,10 @@ body{
           }
     
           .grItem {
-              margin:15 auto;
+              margin:5 auto;
           }
           .wi {
-              margin:10px auto 10px;
+              margin:5px auto 5px;
            }
     
       .gdFoo{
