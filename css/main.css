@@ -278,7 +278,8 @@ h3 {
     height: auto;
     width: 100%;
     text-align: center;
-    display: block; } }
+    display: block;
+    background-color: 0; } }
 
 @media (max-width: 880px) {
   .topnav a.active {
