@@ -281,7 +281,7 @@ h3 {
   /* home page Grid*/
   .grid-home {
     grid-template-columns: auto;
-    max-width: 300px; }
+    margin: 0 auto; }
   .grid-Ihome {
     margin: 0 auto;
     grid-template-columns: auto; }
@@ -296,7 +296,7 @@ h3 {
     margin-right: auto;
     margin-bottom: 20%; }
   #info {
-    margin: 10px 65px 10px; }
+    margin: 10px 10px; }
   /*home page classes*/
   .own {
     position: relative; }
