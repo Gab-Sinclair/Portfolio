@@ -31,9 +31,8 @@ h3 {
   background-color: #032852;
   color: white;
   text-align: center; }
-
-.gdFoo.foot {
-  margin-top: auto; }
+  .gdFoo.foot {
+    margin-top: auto; }
 
 /* Top Navigation */
 .topnav {
@@ -73,10 +72,9 @@ h3 {
   transition: all 1s;
   height: 38px;
   width: auto; }
-
-.sM:hover {
-  -webkit-filter: grayscale(0);
-  filter: none; }
+  .sM:hover {
+    -webkit-filter: grayscale(0);
+    filter: none; }
 
 /*Name in left corner positioning*/
 .navItem {
@@ -85,9 +83,8 @@ h3 {
 /* name in left corner style */
 .hom {
   font-family: Arial, Helvetica, sans-serif; }
-
-.hom:hover {
-  border: 3px solid #228B22; }
+  .hom:hover {
+    border: 3px solid #228B22; }
 
 /*Home page grid */
 .grid-home {
@@ -156,9 +153,8 @@ h3 {
 /* Image class in subject section */
 .path {
   border: 5px solid black; }
-
-.path:hover {
-  border: 5px solid #228B22; }
+  .path:hover {
+    border: 5px solid #228B22; }
 
 /* a href class in subject section */
 .route {
@@ -189,12 +185,55 @@ h3 {
   color: black;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif; }
+  .mid-nav:hover {
+    color: #228B22;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 10px; }
 
-.mid-nav:hover {
-  color: #228B22;
-  border: 1px solid black;
-  border-radius: 3%;
-  padding: 10px; }
+/*Graphic design modal */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
 
 /* web and graphic paragraph class */
 .wh {
@@ -257,9 +296,8 @@ h3 {
   padding: 13px 49px;
   text-decoration: none;
   margin: 40px 10px; }
-
-.myResume:hover {
-  background-color: #228B22; }
+  .myResume:hover {
+    background-color: #228B22; }
 
 .myResume:active {
   position: relative;
@@ -325,8 +363,8 @@ h3 {
     background-color: #032852;
     color: white;
     text-align: center; }
-  .gdFoo.foot {
-    margin-top: auto; } }
+    .gdFoo.foot {
+      margin-top: auto; } }
 
 @media (max-width: 660px) {
   .topnav a {
