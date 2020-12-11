@@ -280,7 +280,8 @@ h3 {
 @media (max-width: 800px) {
   /* home page Grid*/
   .grid-home {
-    grid-template-columns: auto; }
+    grid-template-columns: auto;
+    max-width: 300px; }
   .grid-Ihome {
     margin: 0 auto;
     grid-template-columns: auto; }
