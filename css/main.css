@@ -291,8 +291,9 @@ h3 {
     margin: 20px;
     height: auto; }
   #subjects {
-    margin-bottom: 20%;
-    width: 100px; }
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%; }
   #info {
     margin: 10px 65px 10px; }
   /*home page classes*/
