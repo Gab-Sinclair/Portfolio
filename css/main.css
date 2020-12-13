@@ -292,7 +292,6 @@ h3 {
     margin: 0 auto;
     height: auto;
     width: 100%;
-    position: relative;
     background-color: red; }
   #subjects {
     margin-left: auto;
@@ -305,7 +304,6 @@ h3 {
     position: relative; }
   /*home page classes*/
   .own {
-    position: relative;
     margin: 0 auto;
     width: 100%;
     height: 200px; }
