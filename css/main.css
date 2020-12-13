@@ -342,7 +342,13 @@ h3 {
     margin: 0 auto; }
   .grid-Ihome {
     grid-template-columns: auto;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #parent {
+    padding: 5px;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-color: blue; } }
 
 @media only screen and (max-width: 450px) {
   /* home page divs */

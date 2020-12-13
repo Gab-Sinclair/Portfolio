@@ -464,7 +464,14 @@ body{
         grid-template-columns:auto;
         margin:0 auto;
         }
-      
+        #parent {
+          padding:5px;
+          margin:0 auto;
+          height:auto;
+          width:100%;
+          // position: relative;
+          background-color:blue;
+      }
     }  
     @media only screen and (max-width:450px){
        
