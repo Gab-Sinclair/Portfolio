@@ -263,7 +263,7 @@ h3 {
   display: inline-flex; }
 
 /* media queries */
-@media only screen and (max-width: 880px) {
+@media screen and (max-width: 880px) {
   .topnav a.active {
     display: none; }
   .navItem {
@@ -272,11 +272,11 @@ h3 {
   .own {
     margin-right: 10px; } }
 
-@media only screen and (max-width: 879px) {
+@media screen and (max-width: 879px) {
   #logo {
     display: block; } }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   /* home page Grid*/
   .grid-home {
     display: grid;
@@ -333,7 +333,7 @@ h3 {
     .gdFoo.foot {
       margin-top: auto; } }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
   .topnav a {
     font-size: 50px; }
   /* home page Grid*/
@@ -350,7 +350,7 @@ h3 {
     width: 100%;
     background-color: blue; } }
 
-@media only screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
   /* home page divs */
   #parent {
     padding: 0px;
