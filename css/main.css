@@ -282,8 +282,7 @@ h3 {
   .grid-home {
     display: grid;
     grid-template-columns: auto;
-    margin: 0 auto;
-    background-color: red; }
+    margin: 0 auto; }
   .grid-Ihome {
     display: grid;
     margin: 0 auto;
@@ -294,7 +293,8 @@ h3 {
     margin: 20px;
     height: auto;
     width: 100%;
-    position: relative; }
+    position: relative;
+    background-color: red; }
   #subjects {
     margin-left: auto;
     margin-right: auto;

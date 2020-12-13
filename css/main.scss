@@ -372,7 +372,6 @@ body{
           display:grid;
           grid-template-columns:auto;
           margin:0 auto;
-          background-color: red;
           }
     
           .grid-Ihome{
@@ -388,6 +387,7 @@ body{
                 height:auto;
                 width:100%;
                 position: relative;
+                background-color: red;
             }
     
             #subjects {
