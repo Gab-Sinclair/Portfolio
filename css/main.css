@@ -282,7 +282,8 @@ h3 {
   .grid-home {
     display: grid;
     grid-template-columns: auto;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: red; }
   .grid-Ihome {
     display: grid;
     margin: 0 auto;

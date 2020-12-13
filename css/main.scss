@@ -364,7 +364,6 @@ body{
     #logo{
       display: block;
     }
-  
   }
 
   @media only screen and (max-width:700px){
@@ -373,6 +372,7 @@ body{
           display:grid;
           grid-template-columns:auto;
           margin:0 auto;
+          background-color: red;
           }
     
           .grid-Ihome{
