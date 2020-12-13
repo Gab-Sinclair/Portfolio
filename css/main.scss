@@ -149,8 +149,7 @@ body{
   color: #444;
 }
       #about {
-        margin:0 auto;
-        margin:30px;
+        margin:30px auto;
         padding-bottom: 15px;
         color: $visibility-color;
         font-size: 18px;
@@ -391,10 +390,10 @@ body{
             }
     
             #subjects {
-                 margin-left: auto;
-                 margin-right: auto;
+                margin-left: auto;
+                margin-right: auto;
                 margin-bottom: 20%;
-                width:100%;
+                width:50%;
                 position: relative;
             }
       
@@ -447,9 +446,7 @@ body{
         &.foot{
           margin-top: auto;
       }
-
     }
-
     }
     
     
@@ -471,21 +468,9 @@ body{
       
     }  
     @media only screen and (max-width:450px){
-      /* home page Grid*/
-      .grid-home{
-        display:grid;
-        grid-template-columns:auto;
-        }
-      
-        .grid-Ihome{
-        display:grid;
-        grid-template-columns:auto;
-        }
        
       /* home page divs */
       #parent {
-        display: grid;
-        grid-template-columns: auto;
         padding:0px;
         height:auto;
         text-align:center;

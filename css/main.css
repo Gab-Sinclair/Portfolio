@@ -31,8 +31,9 @@ h3 {
   background-color: #032852;
   color: white;
   text-align: center; }
-  .gdFoo.foot {
-    margin-top: auto; }
+
+.gdFoo.foot {
+  margin-top: auto; }
 
 /* Top Navigation */
 .topnav {
@@ -72,9 +73,10 @@ h3 {
   transition: all 1s;
   height: 38px;
   width: auto; }
-  .sM:hover {
-    -webkit-filter: grayscale(0);
-    filter: none; }
+
+.sM:hover {
+  -webkit-filter: grayscale(0);
+  filter: none; }
 
 /*Name in left corner positioning*/
 .navItem {
@@ -83,8 +85,9 @@ h3 {
 /* name in left corner style */
 .hom {
   font-family: Arial, Helvetica, sans-serif; }
-  .hom:hover {
-    border: 3px solid #228B22; }
+
+.hom:hover {
+  border: 3px solid #228B22; }
 
 /*Home page grid */
 .grid-home {
@@ -106,8 +109,7 @@ h3 {
   color: #444; }
 
 #about {
-  margin: 0 auto;
-  margin: 30px;
+  margin: 30px auto;
   padding-bottom: 15px;
   color: white;
   font-size: 18px;
@@ -153,8 +155,9 @@ h3 {
 /* Image class in subject section */
 .path {
   border: 5px solid black; }
-  .path:hover {
-    border: 5px solid #228B22; }
+
+.path:hover {
+  border: 5px solid #228B22; }
 
 /* a href class in subject section */
 .route {
@@ -185,11 +188,12 @@ h3 {
   color: black;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif; }
-  .mid-nav:hover {
-    color: #228B22;
-    border: 1px solid black;
-    border-radius: 3%;
-    padding: 10px; }
+
+.mid-nav:hover {
+  color: #228B22;
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 10px; }
 
 /* web and graphic paragraph class */
 .wh {
@@ -251,8 +255,9 @@ h3 {
   padding: 13px 49px;
   text-decoration: none;
   margin: 40px 10px; }
-  .myResume:hover {
-    background-color: #228B22; }
+
+.myResume:hover {
+  background-color: #228B22; }
 
 .myResume:active {
   position: relative;
@@ -299,7 +304,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20%;
-    width: 100%;
+    width: 50%;
     position: relative; }
   #info {
     margin: 10px 10px;
@@ -334,8 +339,8 @@ h3 {
     background-color: #032852;
     color: white;
     text-align: center; }
-    .gdFoo.foot {
-      margin-top: auto; } }
+  .gdFoo.foot {
+    margin-top: auto; } }
 
 @media only screen and (max-width: 660px) {
   .topnav a {
@@ -349,17 +354,8 @@ h3 {
     grid-template-columns: auto; } }
 
 @media only screen and (max-width: 450px) {
-  /* home page Grid*/
-  .grid-home {
-    display: grid;
-    grid-template-columns: auto; }
-  .grid-Ihome {
-    display: grid;
-    grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    display: grid;
-    grid-template-columns: auto;
     padding: 0px;
     height: auto;
     text-align: center; }
