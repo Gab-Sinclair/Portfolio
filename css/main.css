@@ -347,7 +347,7 @@ h3 {
     margin: 0 auto;
     grid-template-columns: auto; } }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   /* home page Grid*/
   .grid-home {
     display: grid;
