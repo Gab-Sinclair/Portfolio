@@ -473,7 +473,7 @@ body{
           background-color:blue;
       }
     }  
-    @media only screen and (max-width:450px){
+    @media only screen and (min-width:450px){
        
       /* home page divs */
       #parent {
