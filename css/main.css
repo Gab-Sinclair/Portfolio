@@ -276,10 +276,14 @@ h3 {
   #parent {
     padding: 0px;
     height: auto;
+    width: 350px;
+    text-align: center; }
+  .own {
+    margin-right: 10px;
+    position: relative;
+    margin: 0 auto;
     width: 100%;
-    text-align: center;
-    display: block;
-    background-color: 0; } }
+    height: 200px; } }
 
 @media (max-width: 880px) {
   .topnav a.active {
