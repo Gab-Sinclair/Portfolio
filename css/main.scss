@@ -365,7 +365,7 @@ body{
     }
   }
 
-  @media only screen and (max-width:700px){
+  @media only screen and (min-width:700px){
     /* home page Grid*/
           .grid-home{
           display:grid;
@@ -381,8 +381,8 @@ body{
          
       /* home page divs */
              #parent {
-                padding:20px;
-                margin:20px;
+                padding:5px;
+                margin:5px;
                 height:auto;
                 width:100%;
                 position: relative;
