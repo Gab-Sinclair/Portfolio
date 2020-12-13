@@ -292,6 +292,7 @@ h3 {
     margin: 5px;
     height: auto;
     width: 100%;
+    position: relative;
     background-color: red; }
   #subjects {
     margin-left: auto;
