@@ -103,7 +103,8 @@ h3 {
   width: auto;
   position: relative;
   margin: 30px auto;
-  color: #444; }
+  color: #444;
+  text-align: left; }
 
 #about {
   margin: 30px auto;
@@ -358,11 +359,11 @@ h3 {
     width: auto;
     margin: 0, auto;
     text-align: center;
-    display: block; }
+    display: inline-block; }
   #about {
     margin: 0, auto;
     text-align: center;
-    display: block; }
+    display: inline-block; }
   #subjects {
     margin: 0, auto;
-    display: block; } }
+    display: inline-block; } }
