@@ -289,10 +289,10 @@ h3 {
   /* home page divs */
   #parent {
     padding: 5px;
-    margin: 5px;
+    margin: 0 auto;
     height: auto;
     width: 100%;
-    position: fixed;
+    display: block;
     background-color: red; }
   #subjects {
     margin-left: auto;
