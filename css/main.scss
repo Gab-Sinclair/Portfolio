@@ -386,7 +386,7 @@ body{
                 margin:0 auto;
                 height:auto;
                 width:100%;
-                // position: relative;
+                position: relative;
                 background-color: red;
             }
     
@@ -470,7 +470,6 @@ body{
           margin:0 auto;
           height:auto;
           width:100%;
-          // position: relative;
           background-color:blue;
       }
     }  
@@ -493,6 +492,7 @@ body{
      }
      #subjects {
       margin: 0, auto;
+      width: 50%;
       display: inline-block;
      }
  }

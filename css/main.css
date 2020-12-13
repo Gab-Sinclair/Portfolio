@@ -293,6 +293,7 @@ h3 {
     margin: 0 auto;
     height: auto;
     width: 100%;
+    position: relative;
     background-color: red; }
   #subjects {
     margin-left: auto;
@@ -366,4 +367,5 @@ h3 {
     display: inline-block; }
   #subjects {
     margin: 0, auto;
+    width: 50%;
     display: inline-block; } }
