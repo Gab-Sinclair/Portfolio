@@ -343,8 +343,8 @@ h3 {
     grid-template-columns: auto;
     margin: 0 auto; }
   .grid-Ihome {
-    margin: 0 auto;
-    grid-template-columns: auto; } }
+    grid-template-columns: auto;
+    margin: 0 auto; } }
 
 @media only screen and (max-width: 450px) {
   /* home page divs */
