@@ -289,8 +289,8 @@ h3 {
     grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    padding: 5px;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 20px auto;
     height: auto;
     width: 100%;
     position: relative;
