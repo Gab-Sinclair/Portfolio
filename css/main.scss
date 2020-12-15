@@ -350,12 +350,13 @@ body{
 @media screen and (max-width:1200px){
   .grid-container {
     display:grid;
-    grid-template-columns: auto;
+    grid-template-columns:auto;
 }
-.grItem {
+  .grItem{
   margin:5px auto;
  }
 }
+
 @media screen and (max-width:880px){
   .topnav a.active {
       display: none; 
