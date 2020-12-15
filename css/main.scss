@@ -347,6 +347,15 @@ body{
                 }
 
 /* media queries */
+@media screen and (max-width:1200px){
+  .grid-container {
+    display:grid;
+    grid-template-columns:auto auto;
+}
+.grItem {
+  margin:5px auto;
+}
+}
 @media screen and (max-width:880px){
   .topnav a.active {
       display: none; 
@@ -362,11 +371,6 @@ body{
     display:grid;
     grid-template-columns:auto;
 }
-
-.grItem {
-    margin:5px auto;
-}
-
   }
 
   @media screen and (max-width: 879px){

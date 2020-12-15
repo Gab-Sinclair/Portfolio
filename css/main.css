@@ -264,6 +264,13 @@ h3 {
   display: inline-flex; }
 
 /* media queries */
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto; }
+  .grItem {
+    margin: 5px auto; } }
+
 @media screen and (max-width: 880px) {
   .topnav a.active {
     display: none; }
@@ -274,9 +281,7 @@ h3 {
     margin-right: 10px; }
   .grid-container {
     display: grid;
-    grid-template-columns: auto; }
-  .grItem {
-    margin: 5px auto; } }
+    grid-template-columns: auto; } }
 
 @media screen and (max-width: 879px) {
   #logo {
