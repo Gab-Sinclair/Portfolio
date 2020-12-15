@@ -264,7 +264,7 @@ h3 {
   display: inline-flex; }
 
 /* media queries */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1170px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto; }
