@@ -219,7 +219,8 @@ h3 {
 
 /*Web design id*/
 #web {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  overflow: auto; }
 
 /* Graphic design page classes */
 /* Graphic design div*/
@@ -267,7 +268,8 @@ h3 {
 @media screen and (max-width: 1170px) {
   .grid-container {
     display: grid;
-    grid-template-columns: auto; }
+    grid-template-columns: auto;
+    overflow: auto; }
   .grItem {
     margin: 5px auto; } }
 
