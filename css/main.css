@@ -293,8 +293,7 @@ h3 {
     margin: 20px auto;
     height: auto;
     width: 100%;
-    position: relative;
-    background-color: red; }
+    position: relative; }
   #info {
     margin: 5px 5px;
     width: 100%;
@@ -347,8 +346,7 @@ h3 {
     padding: 5px;
     margin: 0 auto;
     height: auto;
-    width: 100%;
-    background-color: blue; } }
+    width: 100%; } }
 
 @media screen and (max-width: 450px) {
   /* home page divs */
