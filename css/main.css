@@ -268,7 +268,8 @@ h3 {
 @media screen and (max-width: 1170px) {
   .grid-container {
     display: grid;
-    grid-template-columns: auto; }
+    grid-template-columns: auto;
+    overflow: auto; }
   .grItem {
     margin: 5px auto; }
   .gdFoo {
