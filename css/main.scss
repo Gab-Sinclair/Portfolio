@@ -41,7 +41,7 @@ body{
 .gdFoo{
   width:100%;
   height:200px;
-  // display: none;
+  display: none;
   position: absolute;;
   bottom: 0;
   background-color:$darker-color;
@@ -363,7 +363,7 @@ body{
   height:200px;
   position: absolute;
   bottom: 0;
-  // display: none;
+  display: none;
   background-color:$darker-color;
   color:$visibility-color;
   text-align:center;
@@ -464,7 +464,7 @@ body{
         width:100%;
         height:200px;
         position: absolute;
-        // display: none;
+        display: none;
         bottom: 0;
         background-color:$darker-color;
         color:$visibility-color;
