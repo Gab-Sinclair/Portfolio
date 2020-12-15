@@ -270,9 +270,7 @@ h3 {
     grid-template-columns: auto;
     overflow: auto; }
   .grItem {
-    margin: 5px auto; }
-  .gdFoo {
-    margin-top: 30%; } }
+    margin: 5px auto; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {
