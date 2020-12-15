@@ -26,7 +26,6 @@ h3 {
   height: 200px;
   position: absolute;
   bottom: 0;
-  display: block;
   background-color: #032852;
   color: white;
   text-align: center; }
@@ -101,10 +100,13 @@ h3 {
 /* home page main content div*/
 #parent {
   height: 750px;
-  min-height: 100%;
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
   width: auto;
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-bottom: 200px;
   margin: 30px auto;
   color: #444;
   text-align: left; }
@@ -317,9 +319,13 @@ h3 {
     grid-template-columns: auto; }
   /* home page divs */
   #parent {
-    padding-bottom: auto;
+    padding-bottom: 200px;
     margin: 20px auto;
     height: auto;
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
     width: 100%;
     position: relative; }
   #info {
@@ -370,18 +376,25 @@ h3 {
     grid-template-columns: auto;
     margin: 0 auto; }
   #parent {
-    padding-bottom: auto;
+    padding-bottom: 200px;
     margin: 0 auto;
-    height: auto;
-    width: 100%; } }
+    width: 100%;
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    width: auto; } }
 
 @media screen and (max-width: 450px) {
   /* home page divs */
   #parent {
-    padding-bottom: auto;
+    padding-bottom: 200px;
     height: auto;
-    width: auto;
-    margin: 0, auto; }
+    margin: 0, auto;
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block; }
   #about {
     margin: 0, auto;
     position: relative; }
