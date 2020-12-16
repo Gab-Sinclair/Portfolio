@@ -308,6 +308,7 @@ h3 {
   /* home page div */
   #parent {
     min-height: 100%;
+    height: auto;
     display: inline-block; }
   /*Grid on web and graphic*/
   .grid-container {
