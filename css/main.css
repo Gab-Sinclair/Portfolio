@@ -306,11 +306,10 @@ h3 {
     display: grid;
     grid-template-columns: auto; }
   /* home page div */
-  #info {
-    margin: 5px 5px;
-    width: 100%;
-    height: auto;
-    position: relative; }
+  #parent {
+    min-height: 100%;
+    padding-bottom: 300px;
+    display: inline-block; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
