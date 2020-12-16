@@ -292,8 +292,13 @@ body{
 
   /*Web design id*/
     #web{
-      margin-bottom:100px;
-    }
+      position: relative;
+      min-height: 100%;
+      padding-bottom: 200px;
+      height: auto;
+      display: block;
+      width:auto;
+        }
 
 
 
@@ -309,12 +314,13 @@ body{
 
 /*Graphic design id*/ 
         #graphics{
-        margin-bottom:-100px;
         position: relative;
-        min-height: 100vh;
+        min-height: 100%;
         padding-bottom: 200px;
-        overflow: auto;
-      }
+        height: auto;
+        display: block;
+        width:auto;
+        }
 
 
 
