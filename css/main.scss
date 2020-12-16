@@ -360,22 +360,20 @@ body{
   .grItem{
   margin:5px auto;
  }
- .gdFoo{
-  width:100%;
-  height:200px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: none;
-  background-color:$darker-color;
-  color:$visibility-color;
-  text-align:center;
+//  .gdFoo{
+//   width:100%;
+//   height:200px;
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   background-color:$darker-color;
+//   color:$visibility-color;
+//   text-align:center;
 
-  &.foot{
-    margin-top: auto;
-}
-}
-
+//   &.foot{
+//     margin-top: auto;
+// }
+// /
 }
 
 @media screen and (max-width:880px){
@@ -463,20 +461,20 @@ body{
             margin:5px auto ;
            }
     
-      .gdFoo{
-        width:100%;
-        height:200px;
-        position: absolute;
-        display: none;
-        bottom: 0;
-        background-color:$darker-color;
-        color:$visibility-color;
-        text-align:center;
+      // .gdFoo{
+      //   width:100%;
+      //   height:200px;
+      //   position: absolute;
+      //   display: none;
+      //   bottom: 0;
+      //   background-color:$darker-color;
+      //   color:$visibility-color;
+      //   text-align:center;
 
-        &.foot{
-          margin-top: 90%;
-      }
-    }
+      //   &.foot{
+      //     margin-top: 90%;
+      // }
+    // }
     }
     
     
