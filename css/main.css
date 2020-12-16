@@ -308,7 +308,6 @@ h3 {
     margin: 20px auto;
     min-height: 100%;
     /* will cover the 100% of viewport */
-    overflow: hidden;
     display: block;
     width: 100%;
     position: relative; }
