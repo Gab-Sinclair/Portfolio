@@ -358,6 +358,7 @@ h3 {
     color: white;
     text-align: center; }
     .gdFoo.foot {
+      background-color: red;
       margin-top: auto; } }
 
 @media screen and (max-width: 660px) {
