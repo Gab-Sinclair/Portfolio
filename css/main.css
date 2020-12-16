@@ -339,12 +339,6 @@ h3 {
 
 @media screen and (max-width: 450px) {
   /* home page divs */
-  #parent {
-    padding-bottom: 200px;
-    height: auto;
-    margin: 0, auto;
-    min-height: 100%;
-    display: block; }
   #about {
     margin: 0, auto;
     position: relative; }
