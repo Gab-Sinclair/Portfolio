@@ -32,9 +32,8 @@ h3 {
   background-color: #032852;
   color: white;
   text-align: center; }
-
-.gdFoo.foot {
-  margin-top: auto; }
+  .gdFoo.foot {
+    margin-top: auto; }
 
 /* Top Navigation */
 .topnav {
@@ -74,10 +73,9 @@ h3 {
   transition: all 1s;
   height: 38px;
   width: auto; }
-
-.sM:hover {
-  -webkit-filter: grayscale(0);
-  filter: none; }
+  .sM:hover {
+    -webkit-filter: grayscale(0);
+    filter: none; }
 
 /*Name in left corner positioning*/
 .navItem {
@@ -86,9 +84,8 @@ h3 {
 /* name in left corner style */
 .hom {
   font-family: Arial, Helvetica, sans-serif; }
-
-.hom:hover {
-  border: 3px solid #228B22; }
+  .hom:hover {
+    border: 3px solid #228B22; }
 
 /*Home page grid */
 .grid-home {
@@ -160,9 +157,8 @@ h3 {
 /* Image class in subject section */
 .path {
   border: 5px solid black; }
-
-.path:hover {
-  border: 5px solid #228B22; }
+  .path:hover {
+    border: 5px solid #228B22; }
 
 /* a href class in subject section */
 .route {
@@ -193,12 +189,11 @@ h3 {
   color: black;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif; }
-
-.mid-nav:hover {
-  color: #228B22;
-  border: 1px solid black;
-  border-radius: 3%;
-  padding: 10px; }
+  .mid-nav:hover {
+    color: #228B22;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 10px; }
 
 /* web and graphic paragraph class */
 .wh {
@@ -260,9 +255,8 @@ h3 {
   padding: 13px 49px;
   text-decoration: none;
   margin: 40px 10px; }
-
-.myResume:hover {
-  background-color: #228B22; }
+  .myResume:hover {
+    background-color: #228B22; }
 
 .myResume:active {
   position: relative;
@@ -290,8 +284,8 @@ h3 {
     background-color: #032852;
     color: white;
     text-align: center; }
-  .gdFoo.foot {
-    margin-top: auto; } }
+    .gdFoo.foot {
+      margin-top: auto; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {
@@ -363,8 +357,8 @@ h3 {
     background-color: #032852;
     color: white;
     text-align: center; }
-  .gdFoo.foot {
-    margin-top: 90%; } }
+    .gdFoo.foot {
+      margin-top: 90%; } }
 
 @media screen and (max-width: 660px) {
   .topnav a {
