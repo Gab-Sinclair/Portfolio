@@ -101,7 +101,6 @@ h3 {
 #parent {
   height: 750px;
   min-height: 100%;
-  /* will cover the 100% of viewport */
   display: block;
   width: auto;
   position: relative;
@@ -307,7 +306,7 @@ h3 {
   #parent {
     padding-bottom: 200px;
     margin: 20px auto;
-    min-height: 100vh;
+    min-height: 100%;
     /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
@@ -353,8 +352,7 @@ h3 {
     padding-bottom: 200px;
     margin: 0 auto;
     width: 100%;
-    min-height: 100vh;
-    /* will cover the 100% of viewport */
+    min-height: 100%;
     display: block;
     width: auto; } }
 
@@ -364,8 +362,7 @@ h3 {
     padding-bottom: 200px;
     height: auto;
     margin: 0, auto;
-    min-height: 100vh;
-    /* will cover the 100% of viewport */
+    min-height: 100%;
     display: block; }
   #about {
     margin: 0, auto;
