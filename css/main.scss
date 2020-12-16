@@ -230,6 +230,8 @@ body{
     .grItem{
       padding:30px;
       margin:15px;
+      height: 400px;
+      width: fit-content;
       background-color:$light-color;
       border-radius: 20px;
     }
@@ -295,6 +297,7 @@ body{
       position: relative;
       min-height: 100%;
       padding-bottom: 200px;
+      height: auto;
       }
 
 
