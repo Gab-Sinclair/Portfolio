@@ -11,14 +11,14 @@ $light-color: #005BAD;
 html{
     height: 100%;
     margin: 0;
+    padding: 0;
   }
 
 body{
     background-color:$primary-color;
     margin:0;
+    padding: 0;
     min-height:100%;  
-    display:flex;
-    flex-direction: column; 
 }
 
 /*General styling */
@@ -143,8 +143,7 @@ body{
 /* home page main content div*/
 #parent {
   height:750px;
-  min-height: 100vh; /* will cover the 100% of viewport */
-  // overflow: hidden;
+  min-height: 100%; /* will cover the 100% of viewport */
   display: block;
   width:auto;
   position:relative;
@@ -156,6 +155,7 @@ body{
       #about {
         margin:30px auto;
         padding-bottom: 15px;
+        position: relative;
         color: $visibility-color;
         font-size: 18px;
         font-family: $font-family;
@@ -364,6 +364,7 @@ body{
   width:100%;
   height:200px;
   position: absolute;
+  left: 0;
   bottom: 0;
   display: none;
   background-color:$darker-color;
