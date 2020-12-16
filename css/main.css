@@ -277,8 +277,7 @@ h3 {
 @media screen and (max-width: 1170px) {
   .grid-container {
     display: grid;
-    grid-template-columns: auto;
-    overflow: auto; }
+    grid-template-columns: auto; }
   .grItem {
     margin: 5px auto; } }
 
@@ -302,19 +301,16 @@ h3 {
   /* home page Grid*/
   .grid-home {
     display: grid;
-    grid-template-columns: auto;
-    margin: 0 auto; }
+    grid-template-columns: auto; }
   .grid-Ihome {
     display: grid;
-    margin: 0 auto;
     grid-template-columns: auto; }
-  /* home page divs */
+  /* home page div */
   #info {
     margin: 5px 5px;
     width: 100%;
     height: auto;
     position: relative; }
-  /*home page classes*/
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
