@@ -389,12 +389,12 @@ body{
           .grid-home{
           display:grid;
           grid-template-columns:auto;
-          // margin:0 auto;
+          margin:0 auto;
           }
     
           .grid-Ihome{
           display:grid;
-          // margin:0 auto;
+          margin:0 auto;
           grid-template-columns:auto;
           }
          
@@ -403,8 +403,7 @@ body{
         #parent{
           min-height: 100%; 
           height: auto;
-          display: inline-block;
-
+          display:block;
         }
     
      /*Grid on web and graphic*/
