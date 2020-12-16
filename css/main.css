@@ -312,6 +312,9 @@ h3 {
     min-height: 100%;
     height: auto;
     display: block; }
+  .route {
+    margin: 0, auto;
+    padding: 2px; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
