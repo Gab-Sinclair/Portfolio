@@ -177,7 +177,8 @@ h3 {
   height: 400px;
   width: fit-content;
   background-color: #005BAD;
-  border-radius: 20px; }
+  border-radius: 20px;
+  position: relative; }
 
 /* web and grpahic middle navigation buttons */
 .mid-parent {
@@ -227,7 +228,6 @@ h3 {
 #web {
   position: relative;
   min-height: 100%;
-  padding-bottom: 200px;
   height: auto; }
 
 /* Graphic design page classes */
@@ -242,7 +242,6 @@ h3 {
 #graphics {
   position: relative;
   min-height: 100%;
-  padding-bottom: 200px;
   height: auto; }
 
 /* footer classes */
