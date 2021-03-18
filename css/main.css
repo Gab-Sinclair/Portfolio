@@ -33,7 +33,7 @@ h3 {
   color: white;
   text-align: center; }
   .gdFoo.foot {
-    margin-top: auto;
+    margin-top: 20px;
     position: absolute; }
 
 /* Top Navigation */
