@@ -3,8 +3,8 @@ $font-family : Arial, Helvetica, sans-serif;
 $darker-color: rgb(71, 125, 253);
 $accent:black;
 $visibility-color:white;
-$third-color: #1bc72f;
-$light-color: #ffe400;
+$third-color: #ffe400;
+$light-color: #1bc72f;
 
 
 
@@ -193,7 +193,7 @@ body{
 
             /* H3 homepage */
             .title {
-              color:#005BAD;
+              color:$darker-color;
               margin-left: -4px;
               }
 
