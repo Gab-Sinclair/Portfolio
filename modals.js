@@ -53,7 +53,3 @@ close4.addEventListener("click", () => {
  });
 
 
-
-function init(){
-}
-window.addEventListener("load", init, false);
