@@ -32,6 +32,7 @@ close.addEventListener("click", () => {
 open2.addEventListener("click", () => {
   modal_container2.classList.add("show");
 });
+
 close2.addEventListener("click", () => {
   modal_container2.classList.remove("show");
 });
@@ -40,6 +41,7 @@ close2.addEventListener("click", () => {
 open3.addEventListener("click", () => {
   modal_container3.classList.add("show");
 });
+
 close3.addEventListener("click", () => {
   modal_container3.classList.remove("show");
 });
@@ -48,6 +50,7 @@ close3.addEventListener("click", () => {
 open4.addEventListener("click", () => {
     modal_container4.classList.add("show");
   });
+  
 close4.addEventListener("click", () => {
     modal_container4.classList.remove("show");
  });
