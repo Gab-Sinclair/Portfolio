@@ -21,6 +21,54 @@ body{
     min-height:100%;  
 }
 
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  display: flex;
+  box-align: center;
+  justify-content: center;
+  opacity: 0;
+  overflow: auto;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-container.show {
+  pointer-events: auto;
+  opacity: 1;
+  z-index:1;
+}
+
+
+.modal {
+  background-color: #ffff;
+  width: 800px;
+  height: 100vh;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  text-align: center;
+  overflow:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
 /*General styling */
 
   h1 {
