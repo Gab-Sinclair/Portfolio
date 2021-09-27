@@ -68,9 +68,24 @@ body{
   font-size: 14px;
 }
 .close{
+        display: block;
+        width: 100%;
+        border: none;
         font-size: 20px;
         text-decoration: none;
         color:$darker-color;
+        margin-top:10px;
+        padding: 14px 28px;
+        font-size: 16px;
+        background-color: white;
+}
+.close:hover{
+  color:white;
+  background-color:$darker-color;
+}
+.shown{
+  overflow: auto;
+
 }
 
 /*General styling */
@@ -332,10 +347,42 @@ body{
 /* Web design page classes */
 
       /* div code link */
+      // .big {
+      //   font-size: 20px;
+      //   text-decoration: none;
+      //   color: $accent;
+      //   padding: 10px;
+      //   font-family: $font-family;
+      //   border: none;
+
+      // }
+      
       .big {
-        font-size: 20px;
+        box-shadow: 0px 0px 0px 0px $darker-color;
+        background-color:$darker-color;
+        border-radius:10px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        padding:4px 6px;
+        text-decoration:none;
+        overflow: auto;
+        margin: 5px auto;
+      }
+      .big:hover {
+        background-color:white;
+        color:$darker-color;
+      }
+  
+
+      .alpha{
         text-decoration: none;
-        color:#005BAD;
+        color: white;
+      }
+      .alpha:hover{
+        color:$darker-color; ;
       }
       
      /*website design div */

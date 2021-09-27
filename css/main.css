@@ -49,6 +49,25 @@ body {
   opacity: 0.7;
   font-size: 14px; }
 
+.close {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #009048;
+  margin-top: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: white; }
+
+.close:hover {
+  color: white;
+  background-color: #009048; }
+
+.shown {
+  overflow: auto; }
+
 /*General styling */
 h1 {
   text-align: center;
@@ -254,9 +273,29 @@ h3 {
 /* Web design page classes */
 /* div code link */
 .big {
-  font-size: 20px;
+  box-shadow: 0px 0px 0px 0px #009048;
+  background-color: #009048;
+  border-radius: 10px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 4px 6px;
   text-decoration: none;
-  color: #005BAD; }
+  overflow: auto;
+  margin: 5px auto; }
+
+.big:hover {
+  background-color: white;
+  color: #009048; }
+
+.alpha {
+  text-decoration: none;
+  color: white; }
+
+.alpha:hover {
+  color: #009048; }
 
 /*website design div */
 .wi {
