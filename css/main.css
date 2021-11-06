@@ -55,7 +55,7 @@ body {
   border: none;
   font-size: 20px;
   text-decoration: none;
-  color: #009048;
+  color: #000000;
   margin-top: 10px;
   padding: 14px 28px;
   font-size: 16px;
@@ -63,7 +63,7 @@ body {
 
 .close:hover {
   color: white;
-  background-color: #009048; }
+  background-color: #000000; }
 
 .shown {
   overflow: auto; }
@@ -88,7 +88,7 @@ h3 {
   position: static;
   bottom: 0;
   margin-top: auto;
-  background-color: #009048;
+  background-color: #000000;
   color: white;
   text-align: center; }
   .gdFoo.foot {
@@ -98,7 +98,7 @@ h3 {
 .topnav {
   position: relative;
   overflow: hidden;
-  background-color: #009048;
+  background-color: #000000;
   width: auto; }
 
 .topnav a {
@@ -145,7 +145,7 @@ h3 {
 .hom {
   font-family: Arial, Helvetica, sans-serif; }
   .hom:hover {
-    border: 3px solid #A8D860; }
+    border: 3px solid #FFE639; }
 
 /*Home page grid */
 .grid-home {
@@ -205,7 +205,7 @@ h3 {
 
 /* H3 homepage */
 .title {
-  color: #009048;
+  color: #000000;
   margin-left: -4px; }
 
 /* Home page paragraph style */
@@ -218,7 +218,7 @@ h3 {
 .path {
   border: 5px solid black; }
   .path:hover {
-    border: 5px solid #A8D860; }
+    border: 5px solid #FFE639; }
 
 /* a href class in subject section */
 .route {
@@ -233,12 +233,12 @@ h3 {
   justify-items: center; }
 
 .grItem {
-  padding: 30px;
+  padding: 10px;
   margin: 10px;
   height: 400px;
   width: fit-content;
-  background-color: #ffb500;
-  border-radius: 20px;
+  background-color: #FFE639;
+  border-radius: 5px;
   position: relative; }
 
 /* web and grpahic middle navigation buttons */
@@ -254,8 +254,8 @@ h3 {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif; }
   .mid-nav:hover {
-    color: #A8D860;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid #000000;
     border-radius: 3%;
     padding: 10px; }
 
@@ -274,8 +274,8 @@ h3 {
 /* Web design page classes */
 /* div code link */
 .big {
-  box-shadow: 0px 0px 0px 0px #009048;
-  background-color: #009048;
+  box-shadow: 0px 0px 0px 0px #000000;
+  background-color: #000000;
   border-radius: 10px;
   border: 1px solid #18ab29;
   display: inline-block;
@@ -289,14 +289,14 @@ h3 {
 
 .big:hover {
   background-color: white;
-  color: #009048; }
+  color: #000000; }
 
 .alpha {
   text-decoration: none;
   color: white; }
 
 .alpha:hover {
-  color: #009048; }
+  color: #000000; }
 
 /*website design div */
 .wi {
@@ -329,7 +329,7 @@ h3 {
 /* resume download button */
 .myResume {
   border-radius: 6px;
-  border: 1px solid #A8D860;
+  border: 1px solid #FFE639;
   display: inline-block;
   cursor: pointer;
   color: white;
@@ -340,7 +340,7 @@ h3 {
   text-decoration: none;
   margin: 40px 10px; }
   .myResume:hover {
-    background-color: #A8D860; }
+    background-color: #FFE639; }
 
 .myResume:active {
   position: relative;
