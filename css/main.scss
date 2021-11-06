@@ -149,6 +149,7 @@ body{
 .topnav-centered a {
   float: none;
   position: absolute;
+  margin-top: -2px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -445,7 +446,7 @@ body{
                 
                 .myResume:active {
                     position:relative;
-                    top:1px;
+                    top:1px;      
                 }
                 /* Website copyright */
                 .center{

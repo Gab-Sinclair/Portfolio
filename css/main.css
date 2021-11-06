@@ -116,6 +116,7 @@ h3 {
 .topnav-centered a {
   float: none;
   position: absolute;
+  margin-top: -2px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
