@@ -105,6 +105,36 @@ body{
       font-family: $font-family;
 }
 
+table {
+  font-family: Helvetica, serif;
+  border-collapse: collapse;
+  // width: 100%;
+}
+
+table.center {
+  opacity: 0.7;
+  font-family: Helvetica, serif;
+  border-collapse: collapse;
+  margin-left: 30%; 
+  margin-right: 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+td, th {
+  border: 2px solid #FFE639;
+  text-align: left;
+  padding: 10px;
+}
+
+th{
+  background-color: #000000;
+  color: white;
+  }
+
+ul {
+  list-style-image: linear-gradient(to left bottom, yellow, black);
+}
 
 
 .gdFoo{
@@ -210,7 +240,7 @@ body{
 
 /* home page main content div*/
 #parent {
-  height:750px;
+  height:auto;
   min-height: 100%; 
   display: block;
   width:auto;
@@ -257,6 +287,9 @@ body{
             /* second section parent div class */
             .own {
               position: relative;
+              background:url(../place.png);
+              background-repeat: no-repeat;
+              background-size: auto;
               }
 
             /* H3 homepage */
@@ -463,6 +496,10 @@ body{
   .grItem{
   margin:5px auto;
  }
+ table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
 }
 
 @media screen and (max-width:880px){
@@ -479,6 +516,10 @@ body{
    .grid-container {
     display:grid;
     grid-template-columns:auto;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
 }
   }
 
