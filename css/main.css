@@ -226,10 +226,7 @@ ul {
 /*Home page classes */
 /* second section parent div class */
 .own {
-  position: relative;
-  background: url(../place.png);
-  background-repeat: no-repeat;
-  background-size: auto; }
+  position: relative; }
 
 /* H3 homepage */
 .title {
