@@ -108,11 +108,12 @@ body{
 table {
   font-family: Helvetica, serif;
   border-collapse: collapse;
+  color:$darker-color
   // width: 100%;
 }
 
 table.center {
-  opacity: 0.7;
+  opacity: 1;
   font-family: Helvetica, serif;
   border-collapse: collapse;
   margin-left: 30%; 
@@ -258,6 +259,10 @@ ul {
         font-size: 18px;
         font-family: $font-family;
         background-color: $visibility-color;
+        background:url(../images/place.png);
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        background-size: cover;
        }
 
         /* Logo section in parent div */
@@ -287,9 +292,6 @@ ul {
             /* second section parent div class */
             .own {
               position: relative;
-              // background:url(../place.png);
-              // background-repeat: no-repeat;
-              // background-size: auto;
               }
 
             /* H3 homepage */

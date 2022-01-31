@@ -84,10 +84,11 @@ h3 {
 
 table {
   font-family: Helvetica, serif;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  color: #000000; }
 
 table.center {
-  opacity: 0.7;
+  opacity: 1;
   font-family: Helvetica, serif;
   border-collapse: collapse;
   margin-left: 30%;
@@ -200,7 +201,11 @@ ul {
   color: white;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white; }
+  background-color: white;
+  background: url(../images/place.png);
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-size: cover; }
 
 /* Logo section in parent div */
 #logo {
