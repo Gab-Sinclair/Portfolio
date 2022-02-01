@@ -264,6 +264,7 @@ ul {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        background-position: center center;
        }
 
         /* Logo section in parent div */
@@ -503,6 +504,9 @@ ul {
   margin-left: auto; 
   margin-right: auto;
 }
+#about{
+  background-size: 100%;
+}
 }
 
 @media screen and (max-width:880px){
@@ -556,6 +560,11 @@ table.center {
         .route{
           margin: 0, auto;
           padding: 2px;
+        }
+
+        #about{
+          background-size: auto;
+          background-attachment: scroll;
         }
     
      /*Grid on web and graphic*/

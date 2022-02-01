@@ -206,7 +206,8 @@ ul {
   background: url(../images/place.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center; }
 
 /* Logo section in parent div */
 #logo {
@@ -391,7 +392,9 @@ ul {
     margin: 5px auto; }
   table.center {
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  #about {
+    background-size: 100%; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {
@@ -430,6 +433,9 @@ ul {
   .route {
     margin: 0, auto;
     padding: 2px; }
+  #about {
+    background-size: auto;
+    background-attachment: scroll; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
