@@ -392,9 +392,7 @@ ul {
     margin: 5px auto; }
   table.center {
     margin-left: auto;
-    margin-right: auto; }
-  #about {
-    background-size: 100%; } }
+    margin-right: auto; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {
@@ -433,9 +431,6 @@ ul {
   .route {
     margin: 0, auto;
     padding: 2px; }
-  #about {
-    background-size: auto;
-    background-attachment: scroll; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;

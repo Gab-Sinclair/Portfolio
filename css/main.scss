@@ -505,9 +505,7 @@ ul {
   margin-left: auto; 
   margin-right: auto;
 }
-#about{
-  background-size: 100%;
-}
+
 }
 
 @media screen and (max-width:880px){
@@ -563,10 +561,6 @@ table.center {
           padding: 2px;
         }
 
-        #about{
-          background-size: auto;
-          background-attachment: scroll;
-        }
     
      /*Grid on web and graphic*/
           .grid-container {
