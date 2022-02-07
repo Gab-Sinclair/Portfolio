@@ -493,6 +493,19 @@ ul {
                 }
 
 /* media queries */
+
+@media screen and (min-width: 1440px){
+  .parent{
+    height: fit-content;
+  }
+  #about{
+    height: 100vh;
+  }
+  table.center{
+font-size: 3vh;  }
+}
+
+
 @media screen and (max-width:1170px){
   .grid-container {
     display:grid;
