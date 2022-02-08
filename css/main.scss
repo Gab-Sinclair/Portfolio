@@ -21,6 +21,71 @@ body{
     min-height:100%;  
 }
 
+//hero section 
+.hero{      
+  height:100vh;
+  width: 100vw;
+  background: url("https://cutewallpaper.org/21/cool-image-hd/Hd-Cool-Image-3D-Cool-Image-963.jpg");
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachhment:static;
+   }
+
+   .hero-header{
+    font-size:15vh;
+    padding-top: 15%;
+    padding-left: -5%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top:0;
+    margin-bottom:0;
+    color:#ffe639;
+    font-family:verdana;
+  
+  }
+
+  .taglines{
+    font-family:tahoma;
+    font-size:7vh;
+    margin-left:5%;
+    margin-top:0px;
+    text-align:left;
+    width:70%;
+    padding-bottom:5px;
+    color:black; 
+    text-shadow:2px 4px white;
+  }
+
+  .heroButton {
+    background-color:#040f07;
+    border:2px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:20px;
+    padding:22px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 4px #ffe639;
+    margin-left:5%;
+    position:relative;
+    top:10%;
+    
+  }
+
+  .heroButton:hover {
+    background-color:#ffe639;
+    color:black
+  }
+  .heroButton:active {
+    position:relative;
+    top:1px;
+  }
+
+
+
+
 
 .modal-container {
   background-color: rgba(0, 0, 0, 0.4);
@@ -495,6 +560,14 @@ ul {
 /* media queries */
 
 @media screen and (min-width: 1440px){
+  .hero{
+    height:170vh;
+    width:100vw;
+  }
+  .heroButton{
+      font-size:3em;
+  }
+
   .parent{
     height: fit-content;
   }
@@ -504,6 +577,7 @@ ul {
   table.center{
 font-size: 3vh;  }
 }
+
 
 
 @media screen and (max-width:1170px){
@@ -609,6 +683,24 @@ table.center {
         margin:0 auto;
         }
     }  
+
+  @media screen and (max-width: 500px){
+    
+  .hero-header{
+      font-size:60px; 
+    }
+
+  .heroButton {
+	padding:15px 15px;
+    }
+
+ .taglines{
+ width:60%;
+ font-size: 30px;
+    }
+    
+  }
+    
     @media screen and (max-width: 450px){
        
       /* home page divs */
