@@ -440,7 +440,7 @@ ul {
 @media screen and (min-width: 1440px) {
   .hero {
     height: 170vh;
-    width: 100vw; }
+    width: cover; }
   .heroButton {
     font-size: 3em; }
   .parent {
