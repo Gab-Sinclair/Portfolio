@@ -529,7 +529,7 @@ ul {
 @media screen and (max-width: 450px) {
   /* home page divs */
   .hero-header {
-    font-size: 30px; }
+    font-size: 50px; }
   .taglines {
     font-size: 25px; }
   .heroButton {
