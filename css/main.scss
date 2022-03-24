@@ -34,7 +34,7 @@ body{
 
    .hero-header{
     font-size:13vh;
-    padding-top: 15%;
+    padding-top: 7%;
     padding-left: -5%;
     text-align: left;
     margin-left: 5%;
@@ -46,15 +46,15 @@ body{
   }
 
   .taglines{
-    font-family:tahoma;
-    font-size:7vh;
+    font-family:Arial;
+    font-size:5vh;
     margin-left:5%;
     margin-top:0px;
     text-align:left;
-    width:70%;
-    padding-bottom:5px;
-    color:black; 
-    text-shadow:2px 4px white;
+    width:50%;
+    padding: bottom 2px;
+    color:white; 
+    // text-shadow:2px 4px white;
   }
 
   .heroButton {
@@ -70,7 +70,6 @@ body{
     text-shadow:0px 1px 4px #ffe639;
     margin-left:5%;
     position:relative;
-    top:10%;
     
   }
 
@@ -704,6 +703,15 @@ table.center {
     @media screen and (max-width: 450px){
        
       /* home page divs */
+      .hero-header{
+        font-size: 30px;
+      }
+      .taglines{
+        font-size: 25px;
+      }
+      .heroButton{
+        font-size: 15px;
+      }
      #about{
        margin:0, auto;
        position: relative;
