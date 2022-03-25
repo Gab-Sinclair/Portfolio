@@ -20,6 +20,11 @@ body{
     padding: 0;
     min-height:100%;  
 }
+//set table widths
+// table{
+//   table-layout: fixed;
+//   width: 100%;
+// }
 
 //hero section 
 .hero{      
@@ -553,7 +558,6 @@ ul {
                 /* Website copyright */
                 .center{
                   text-align: center;
-                  display:inline-flex
                 }
 
 /* media queries */
@@ -702,23 +706,54 @@ table.center {
     
     @media screen and (max-width: 450px){
        
+
+      .topnav a{
+      margin:10px;
+      }
+
+      .topnav-right{
+        margin:5%;
+        text-align: center;
+      }
+
       /* home page divs */
+      .hero{      
+        width: inherit;
+      }
+
       .hero-header{
-        font-size: 75px;
-        padding-top: 50%;
+        font-size:12vw;
+        padding-top: 10%;
       }
       .taglines{
-        font-size: 25px;
+        font-size: 20px;
       }
       .heroButton{
-        font-size: 15px;
+        font-size: 4vw;
       }
+
+      .route{
+        margin:0 auto;
+      }
+      
      #about{
        margin:0, auto;
        position: relative;
      }
+
+
+     #logo{
+       margin: 0 auto;
+     }
+
+     table.center {
+       margin:0 auto;
+       padding: 0px;
+     }
+
      #subjects {
       margin: 0, auto;
       position: relative;
      }
+
  }
