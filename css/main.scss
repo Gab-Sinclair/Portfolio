@@ -690,8 +690,7 @@ table.center {
   @media screen and (max-width: 500px){
     
   .hero-header{
-      font-size:60px; 
-    }
+      font-size:60px;     }
 
   .heroButton {
 	padding:15px 15px;
@@ -705,7 +704,6 @@ table.center {
   }
     
     @media screen and (max-width: 450px){
-       
 
       .topnav a{
       margin:10px;
@@ -719,14 +717,17 @@ table.center {
       /* home page divs */
       .hero{      
         width: inherit;
+        height: 50vh;
       }
 
       .hero-header{
         font-size:12vw;
-        padding-top: 10%;
+        padding-top: 20%;
+      
       }
       .taglines{
         font-size: 20px;
+
       }
       .heroButton{
         font-size: 4vw;
@@ -755,5 +756,50 @@ table.center {
       margin: 0, auto;
       position: relative;
      }
+
+     @media screen and (max-width: 449px){
+       
+      .topnav a{
+      margin:10px;
+      }
+  
+
+      .topnav-right{
+        margin:5%;
+        text-align: center;
+      }
+
+      /* home page divs */
+
+      
+      .hero{      
+        width: inherit;
+        height: 50vh;
+      }
+
+      .hero-header{
+        font-size:12vw;
+        padding-top: 20%;
+      }
+      .taglines{
+        font-size: 20px;
+      }
+      .heroButton{
+        font-size: 4vw;
+      }
+      #logo{
+        margin: 0 auto;
+      }
+ 
+      table.center {
+        margin:0 auto;
+        padding: 0px;
+      }
+ 
+      #subjects {
+       margin: 0, auto;
+       position: relative;
+      }
+    }
 
  }

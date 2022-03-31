@@ -533,10 +533,11 @@ ul {
     text-align: center; }
   /* home page divs */
   .hero {
-    width: inherit; }
+    width: inherit;
+    height: 50vh; }
   .hero-header {
     font-size: 12vw;
-    padding-top: 10%; }
+    padding-top: 20%; }
   .taglines {
     font-size: 20px; }
   .heroButton {
@@ -546,6 +547,32 @@ ul {
   #about {
     margin: 0, auto;
     position: relative; }
+  #logo {
+    margin: 0 auto; }
+  table.center {
+    margin: 0 auto;
+    padding: 0px; }
+  #subjects {
+    margin: 0, auto;
+    position: relative; } }
+
+@media screen and (max-width: 450px) and (max-width: 449px) {
+  .topnav a {
+    margin: 10px; }
+  .topnav-right {
+    margin: 5%;
+    text-align: center; }
+  /* home page divs */
+  .hero {
+    width: inherit;
+    height: 50vh; }
+  .hero-header {
+    font-size: 12vw;
+    padding-top: 20%; }
+  .taglines {
+    font-size: 20px; }
+  .heroButton {
+    font-size: 4vw; }
   #logo {
     margin: 0 auto; }
   table.center {
