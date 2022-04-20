@@ -82,7 +82,7 @@ div {
       &endbutt {
         @extend .heroButton;
         width:280px;
-        margin-left: -6;
+        margin-left: -6%;
         position: inherit;
       }
   }
@@ -323,12 +323,7 @@ div {
           margin-bottom:30px;
         }
 
-                
-               /* a href class in subject section */
-                .route {
-                  margin:20px;
-                  position:relative;
-                }
+                            
 
      /*Grid for web and graphic pages*/
      .grid-container{
@@ -547,10 +542,6 @@ div {
           min-height: 100%; 
           height: auto;
           display:block;
-        }
-        .route{
-          margin: 0, auto;
-          padding: 2px;
         }
 
     
