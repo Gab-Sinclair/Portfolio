@@ -60,7 +60,7 @@ div {
   position: relative; }
   .heroButtonendbutt {
     width: 280px;
-    margin-left: -6;
+    margin-left: -6%;
     position: inherit; }
 
 .heroButton:hover, .heroButtonendbutt:hover {
@@ -253,11 +253,6 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* a href class in subject section */
-.route {
-  margin: 20px;
-  position: relative; }
-
 /*Grid for web and graphic pages*/
 .grid-container {
   display: grid;
@@ -420,9 +415,6 @@ h3 {
     min-height: 100%;
     height: auto;
     display: block; }
-  .route {
-    margin: 0, auto;
-    padding: 2px; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
