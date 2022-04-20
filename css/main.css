@@ -9,6 +9,12 @@ body {
   padding: 0;
   min-height: 100%; }
 
+.full {
+  max-width: 100%; }
+
+div {
+  min-width: 0; }
+
 .hero {
   height: 100vh;
   width: cover;
@@ -39,7 +45,7 @@ body {
   padding: bottom 2px;
   color: white; }
 
-.heroButton {
+.heroButton, .heroButtonendbutt {
   background-color: #040f07;
   border: 2px solid white;
   display: inline-block;
@@ -52,12 +58,16 @@ body {
   text-shadow: 0px 1px 4px #ffe639;
   margin-left: 5%;
   position: relative; }
+  .heroButtonendbutt {
+    width: 280px;
+    margin-left: -6;
+    position: inherit; }
 
-.heroButton:hover {
+.heroButton:hover, .heroButtonendbutt:hover {
   background-color: #ffe639;
   color: black; }
 
-.heroButton:active {
+.heroButton:active, .heroButtonendbutt:active {
   position: relative; }
 
 .modal-container {
@@ -119,6 +129,33 @@ body {
 .shown {
   overflow: auto; }
 
+.container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: auto;
+  width: auto;
+  gap: 20px 0px;
+  grid-auto-flow: row;
+  text-align: center;
+  padding: 10px;
+  position: inherit; }
+
+.container-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+  border: 1px dashed gray;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-size: 3em; }
+
+.whoo {
+  margin: auto;
+  padding: 20px; }
+
 /*General styling */
 h1 {
   text-align: center;
@@ -132,33 +169,6 @@ h3 {
   margin-left: 50px;
   line-height: 10%;
   font-family: Arial, Helvetica, sans-serif; }
-
-table {
-  font-family: Helvetica, serif;
-  border-collapse: collapse;
-  color: #000000; }
-
-table.center {
-  opacity: 1;
-  font-family: Helvetica, serif;
-  border-collapse: collapse;
-  margin-left: 30%;
-  margin-right: 20%;
-  padding: 10px;
-  text-align: center; }
-
-td, th {
-  border: 2px solid #FFE639;
-  text-align: left;
-  padding: 10px;
-  background-color: white; }
-
-th {
-  background-color: #000000;
-  color: white; }
-
-ul {
-  list-style-image: linear-gradient(to left bottom, yellow, black); }
 
 .gdFoo {
   width: 100%;
@@ -225,16 +235,6 @@ ul {
   .hom:hover {
     border: 3px solid #FFE639; }
 
-/*Home page grid */
-.grid-home {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px; }
-
-.grid-Ihome {
-  padding-top: 5px;
-  padding-bottom: 30px; }
-
 /* home page main content div*/
 #parent {
   height: auto;
@@ -246,62 +246,12 @@ ul {
   color: #444;
   text-align: left; }
 
-#about {
-  margin: 30px auto;
-  padding-bottom: 15px;
-  position: relative;
-  color: white;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
-  background: url(../images/place.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center; }
-
-/* Logo section in parent div */
-#logo {
-  margin: 20px 20px;
-  padding-bottom: -30px;
-  text-align: center;
-  display: none; }
-
-/* second section in parent div */
-#info {
-  margin-top: 20px;
-  color: black;
-  margin-left: 15px; }
-
-/* graphic and web design section buttons */
 #subjects {
   text-align: center;
   position: relative;
   padding-bottom: 50px;
   margin-top: 30px;
   margin-bottom: 30px; }
-
-/*Home page classes */
-/* second section parent div class */
-.own {
-  position: relative; }
-
-/* H3 homepage */
-.title {
-  color: #000000;
-  margin-left: -4px; }
-
-/* Home page paragraph style */
-.facts {
-  margin: 10px 10px 10px;
-  position: relative;
-  width: auto; }
-
-/* Image class in subject section */
-.path {
-  border: 5px solid black; }
-  .path:hover {
-    border: 5px solid #FFE639; }
 
 /* a href class in subject section */
 .route {
@@ -355,7 +305,6 @@ ul {
   border-radius: 10px; }
 
 /* Web design page classes */
-/* div code link */
 .big {
   box-shadow: 0px 0px 0px 0px #000000;
   background-color: #000000;
@@ -434,28 +383,26 @@ ul {
   text-align: center; }
 
 /* media queries */
+@media screen and (max-width: 1400px) {
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto; } }
+
 @media screen and (min-width: 1440px) {
   .hero {
     height: 170vh;
     width: cover; }
-  .heroButton {
+  .heroButton, .heroButtonendbutt {
     font-size: 3em; }
   .parent {
-    height: fit-content; }
-  #about {
-    height: 100vh; }
-  table.center {
-    font-size: 3vh; } }
+    height: fit-content; } }
 
 @media screen and (max-width: 1170px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto; }
   .grItem {
-    margin: 5px auto; }
-  table.center {
-    margin-left: auto;
-    margin-right: auto; } }
+    margin: 5px auto; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {
@@ -463,29 +410,11 @@ ul {
   .navItem {
     margin: auto;
     text-align: center; }
-  .own {
-    margin-right: 10px; }
   .grid-container {
     display: grid;
-    grid-template-columns: auto; }
-  table.center {
-    margin-left: auto;
-    margin-right: auto; } }
-
-@media screen and (max-width: 879px) {
-  #logo {
-    display: block; } }
+    grid-template-columns: auto; } }
 
 @media screen and (max-width: 700px) {
-  /* home page Grid*/
-  .grid-home {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 0 auto; }
-  .grid-Ihome {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: auto; }
   /* home page div */
   #parent {
     min-height: 100%;
@@ -507,19 +436,12 @@ ul {
 
 @media screen and (max-width: 660px) {
   .topnav a {
-    font-size: 50px; }
-  /* home page Grid*/
-  .grid-home {
-    grid-template-columns: auto;
-    margin: 0 auto; }
-  .grid-Ihome {
-    grid-template-columns: auto;
-    margin: 0 auto; } }
+    font-size: 50px; } }
 
 @media screen and (max-width: 500px) {
   .hero-header {
     font-size: 60px; }
-  .heroButton {
+  .heroButton, .heroButtonendbutt {
     padding: 15px 15px; }
   .taglines {
     width: 60%;
@@ -540,18 +462,10 @@ ul {
     padding-top: 20%; }
   .taglines {
     font-size: 20px; }
-  .heroButton {
+  .heroButton, .heroButtonendbutt {
     font-size: 4vw; }
   .route {
     margin: 0 auto; }
-  #about {
-    margin: 0, auto;
-    position: relative; }
-  #logo {
-    margin: 0 auto; }
-  table.center {
-    margin: 0 auto;
-    padding: 0px; }
   #subjects {
     margin: 0, auto;
     position: relative; } }
@@ -562,7 +476,7 @@ ul {
   .topnav-right {
     margin: 5%;
     text-align: center; }
-  /* home page divs */
+  /* home page divs queries */
   .hero {
     width: inherit;
     height: 50vh; }
@@ -571,13 +485,8 @@ ul {
     padding-top: 20%; }
   .taglines {
     font-size: 20px; }
-  .heroButton {
+  .heroButton, .heroButtonendbutt {
     font-size: 4vw; }
-  #logo {
-    margin: 0 auto; }
-  table.center {
-    margin: 0 auto;
-    padding: 0px; }
   #subjects {
     margin: 0, auto;
     position: relative; } }
