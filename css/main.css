@@ -60,7 +60,7 @@ div {
   position: relative; }
   .heroButtonendbutt {
     width: 280px;
-    margin-left: -6%;
+    margin-left: 0%;
     position: inherit; }
 
 .heroButton:hover, .heroButtonendbutt:hover {
