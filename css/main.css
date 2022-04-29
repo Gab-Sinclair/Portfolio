@@ -59,7 +59,7 @@ div {
   margin-left: 5%;
   position: relative; }
   .heroButtonendbutt {
-    width: 280px;
+    width: 250px;
     margin-left: 0%;
     position: inherit; }
 
@@ -249,9 +249,8 @@ h3 {
 #subjects {
   text-align: center;
   position: relative;
-  padding-bottom: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  padding-bottom: 40px;
+  margin: 30px 5px; }
 
 /*Grid for web and graphic pages*/
 .grid-container {
@@ -437,25 +436,25 @@ h3 {
     padding: 15px 15px; }
   .taglines {
     width: 60%;
-    font-size: 30px; } }
+    font-size: 30px; }
+  .whoo {
+    font-size: 25px; } }
 
 @media screen and (max-width: 450px) {
-  .topnav a {
-    margin: 10px; }
   .topnav-right {
     margin: 5%;
     text-align: center; }
   /* home page divs */
   .hero {
     width: inherit;
-    height: 50vh; }
+    height: 55vh; }
   .hero-header {
-    font-size: 12vw;
-    padding-top: 20%; }
+    font-size: 10vw;
+    padding-top: 1%; }
   .taglines {
-    font-size: 20px; }
+    font-size: 15px; }
   .heroButton, .heroButtonendbutt {
-    font-size: 4vw; }
+    font-size: 3vw; }
   .route {
     margin: 0 auto; }
   #subjects {
@@ -464,21 +463,14 @@ h3 {
 
 @media screen and (max-width: 450px) and (max-width: 449px) {
   .topnav a {
-    margin: 10px; }
+    margin: 5px; }
   .topnav-right {
     margin: 5%;
     text-align: center; }
-  /* home page divs queries */
-  .hero {
-    width: inherit;
-    height: 50vh; }
-  .hero-header {
-    font-size: 12vw;
-    padding-top: 20%; }
-  .taglines {
-    font-size: 20px; }
-  .heroButton, .heroButtonendbutt {
-    font-size: 4vw; }
   #subjects {
     margin: 0, auto;
-    position: relative; } }
+    position: relative; }
+  .whoo {
+    font-size: 20px; }
+  .parent {
+    display: inline-block; } }
