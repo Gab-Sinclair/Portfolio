@@ -1,5 +1,11 @@
+@font-face {
+  font-family:'Ah';
+  src: url(../fonts/aAhaWow.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
 $primary-color:rgb(231, 231, 231);
-$font-family : Arial, Helvetica, sans-serif;
+$font-family : Tahoma, Helvetica, sans-serif;
 $darker-color: #000000;
 $accent:black;
 $visibility-color:white;
@@ -20,6 +26,10 @@ body{
     padding: 0;
     min-height:100%;  
 }
+
+
+
+
 
 .full {
   max-width: 100%;
@@ -292,9 +302,13 @@ div {
 
           /* name in left corner style */
           .hom {
-            font-family: $font-family;
+            // font-family: $font-family;
+            font-family: Ah;
+            font-weight: 200;
+            font-size: 30px;
             &:hover {
               border: 3px solid $third-color;
+              
             }
           }
 

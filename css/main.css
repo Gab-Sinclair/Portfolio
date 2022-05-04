@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Ah';
+  src: url(../fonts/aAhaWow.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 200; }
+
 html {
   height: 100%;
   margin: 0;
@@ -158,13 +164,13 @@ h1 {
   margin-bottom: 10px;
   padding: 5px;
   font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Tahoma, Helvetica, sans-serif; }
 
 h3 {
   text-align: left;
   margin-left: 50px;
   line-height: 10%;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Tahoma, Helvetica, sans-serif; }
 
 .gdFoo {
   width: 100%;
@@ -227,7 +233,9 @@ h3 {
 
 /* name in left corner style */
 .hom {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Ah;
+  font-weight: 200;
+  font-size: 30px; }
   .hom:hover {
     border: 3px solid #FFE639; }
 
@@ -275,7 +283,7 @@ h3 {
   text-decoration: none;
   color: black;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Tahoma, Helvetica, sans-serif; }
   .mid-nav:hover {
     color: white;
     border: 1px solid #000000;
@@ -287,7 +295,7 @@ h3 {
   background-color: white;
   height: 75px;
   width: 300px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tahoma, Helvetica, sans-serif;
   font-size: 14px;
   padding-top: 10px;
   margin-bottom: -13px;
@@ -355,7 +363,7 @@ h3 {
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tahoma, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: bold;
   padding: 13px 49px;
