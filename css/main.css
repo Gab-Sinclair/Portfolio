@@ -467,9 +467,9 @@ h3 {
   .ht {
     margin: 5px 15px; }
   .ht h1 {
-    font-size: 25px; }
-  .ht p {
     font-size: 20px; }
+  .ht p {
+    font-size: 15px; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
