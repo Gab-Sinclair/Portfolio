@@ -523,7 +523,7 @@ h3 {
   .home-container {
     margin: 0, 10px; }
   .home-card {
-    grid-template-columns: 250px; }
+    grid-template-columns: auto; }
   .ht h1 {
     font-size: 30px; }
   .ht p {
