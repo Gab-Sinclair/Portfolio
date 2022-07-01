@@ -461,7 +461,15 @@ h3 {
     display: block; }
   .home-container {
     grid-template-columns: auto;
-    margin: 20px 20px; }
+    margin: 20px 10px; }
+  .hi {
+    margin: 20px 0px -10px 0px; }
+  .ht {
+    margin: 5px 15px; }
+  .ht h1 {
+    font-size: 25px; }
+  .ht p {
+    font-size: 20px; }
   /*Grid on web and graphic*/
   .grid-container {
     display: grid;
