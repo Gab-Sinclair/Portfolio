@@ -76,7 +76,7 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../images/Back-cards.jpg");
+  background: url("../images/Back-cards.png");
   background-size: cover; }
 
 .home-container {
@@ -353,7 +353,7 @@ h3 {
   bottom: 0;
   border: 1px solid #000000;
   display: inline-block;
-  color: black;
+  color: white;
   font-family: Arial;
   font-size: 15px;
   padding: 4px 6px;
