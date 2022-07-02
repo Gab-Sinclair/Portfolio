@@ -445,7 +445,8 @@ width:auto;
       
       .big {
         display: block;
-        width: 100%;
+        width: 99%;
+        text-decoration: none;
         background-color:$darker-color;
         position: static;
         text-align: center;
@@ -455,7 +456,7 @@ width:auto;
         color:white;
         font-family:Arial;
         font-size:15px;
-        padding:4px 6px;
+        padding:4px 0px;
         text-decoration:none;
         overflow: auto;
         margin: 5px auto;

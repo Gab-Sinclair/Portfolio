@@ -346,7 +346,8 @@ h3 {
 /* Web design page classes */
 .big {
   display: block;
-  width: 100%;
+  width: 99%;
+  text-decoration: none;
   background-color: #000000;
   position: static;
   text-align: center;
@@ -356,7 +357,7 @@ h3 {
   color: white;
   font-family: Arial;
   font-size: 15px;
-  padding: 4px 6px;
+  padding: 4px 0px;
   text-decoration: none;
   overflow: auto;
   margin: 5px auto; }
