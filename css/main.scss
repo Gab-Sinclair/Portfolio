@@ -112,6 +112,9 @@ div {
   justify-content: center;
   background:url("../images/Back-cards.png");
   background-size:cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .home-container{
