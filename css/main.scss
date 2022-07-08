@@ -128,7 +128,7 @@ div {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: auto auto;
-  grid-template-areas: "image" "text";
+  grid-template-areas: "image" "title" "text";
   margin: 30px;
   background: white;
   box-shadow: 5px 5px 15px black;
@@ -140,12 +140,17 @@ div {
   margin: 30px 0px -20px 0px;
 }
 
+.hh{
+grid-area: title;
+margin-bottom: -10px;
+
+}
 .ht{
   grid-area: text;
   margin: 5px 30px;
 }
 
-.ht h1{
+.hh h1{
   font-size: 50px;
 }
 
@@ -616,7 +621,7 @@ width:auto;
           margin: 5px 15px;
         }
         
-        .ht h1{
+        .hh h1{
           font-size: 20px;
         }
         
@@ -734,7 +739,7 @@ width:auto;
 
       }
 
-      .ht h1{
+      .hh h1{
       font-size: 20px;
     }
     
