@@ -557,11 +557,6 @@ h3 {
   .topnav-right {
     margin: 5%;
     text-align: center; }
-  .holder {
-    background: url(../images/Back-tab-sm.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
   .containerH h1 {
     font-size: 30px;
     padding: 10px 0; }
@@ -583,9 +578,7 @@ h3 {
 
 @media screen and (max-width: 450px) and (max-width: 350px) {
   .holder {
-    background: url(../images/Back-tab-sm.png);
-    background-repeat: no-repeat;
-    background-position: center; }
+    background: url(../images/Back-tab-sm.png); }
   .home-container {
     margin: 0, 10px; }
   .home-card {
