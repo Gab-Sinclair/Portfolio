@@ -72,6 +72,39 @@ div {
 .heroButton:active, .heroButtonendbutt:active {
   position: relative; }
 
+.tabhead {
+  font-size: 50px;
+  text-align: center; }
+
+.holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/Back-tab.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 30px;
+  color: black;
+  background-color: white; }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px; }
+
+#service th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white; }
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -503,6 +536,10 @@ h3 {
     font-size: 25px; } }
 
 @media screen and (max-width: 450px) {
+  h1 {
+    font-size: 35px; }
+  .tabhead {
+    font-size: 40px; }
   .topnav-right {
     margin: 5%;
     text-align: center; }
@@ -527,10 +564,20 @@ h3 {
     position: relative; }
   .whoo {
     font-size: 20px; }
+  .wrapper {
+    background-position: left;
+    background-attachment: scroll; }
   .parent {
     display: inline-block; } }
 
 @media screen and (max-width: 450px) and (max-width: 350px) {
+  .table {
+    width: 60%; }
+  .holder {
+    background: url(../images/Back-tab-sm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
   .home-container {
     margin: 0, 10px; }
   .home-card {
