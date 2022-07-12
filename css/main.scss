@@ -751,6 +751,7 @@ width:auto;
 
      @media screen and (max-width: 449px){
        
+      
       .topnav a{
       margin:5px;
       }
@@ -758,6 +759,13 @@ width:auto;
       .topnav-right{
         margin:5%;
         text-align: center;
+      }
+
+      .holder{
+        background: url(../images/Back-tab-sm.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
       }
 
       .containerH h1{

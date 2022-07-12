@@ -556,6 +556,11 @@ h3 {
   .topnav-right {
     margin: 5%;
     text-align: center; }
+  .holder {
+    background: url(../images/Back-tab-sm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
   .containerH h1 {
     font-size: 30px;
     padding: 10px 0; }
