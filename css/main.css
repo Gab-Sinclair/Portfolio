@@ -79,11 +79,7 @@ div {
 .holder {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: url(../images/Back-tab.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
+  justify-content: center; }
 
 table {
   font-family: arial, sans-serif;
