@@ -91,7 +91,8 @@ table {
   width: 50%;
   margin: 30px;
   color: black;
-  background-color: white; }
+  background-color: white;
+  text-align: center; }
 
 td, th {
   border: 1px solid #dddddd;
