@@ -790,7 +790,7 @@ width:auto;
     }
 
      @media screen and (max-width: 375px){
-      #service{
+      .table{
         margin: 0, auto;
         width: 40%;
       }
@@ -798,10 +798,6 @@ width:auto;
 
     @media screen and (max-width: 350px){
 
-  
-      .holder{
-        background: url(../images/Back-tab-sm.png);
-      }
 
       .home-container{
         margin: 0, 10px;
