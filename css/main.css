@@ -571,11 +571,6 @@ h3 {
   .parent {
     display: inline-block; } }
 
-@media screen and (max-width: 450px) and (max-width: 375px) {
-  .table {
-    margin: 0, auto;
-    width: 40%; } }
-
 @media screen and (max-width: 450px) and (max-width: 350px) {
   .home-container {
     margin: 0, 10px; }
