@@ -579,7 +579,7 @@ h3 {
 @media screen and (max-width: 450px) and (max-width: 375px) {
   #service {
     margin: 0, auto;
-    width: 30%; } }
+    width: 40%; } }
 
 @media screen and (max-width: 450px) and (max-width: 350px) {
   .holder {
