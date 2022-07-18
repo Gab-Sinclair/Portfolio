@@ -93,6 +93,8 @@ div {
 
 .service-card {
   display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-template-areas: "text";
   margin: 30px;
   padding: 15px 20px;
