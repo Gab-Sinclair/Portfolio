@@ -663,12 +663,18 @@ width:auto;
   
     .service-card{
       grid-template-columns: 160px;
+      grid-template-rows: 300px;
       padding: 5px 20px;
      }
 
      .st ul{
       padding: 0 15px;
      }
+
+     .st li{
+      font-size: 19px;
+     }
+     
   }
 
   
