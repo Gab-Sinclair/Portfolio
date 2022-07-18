@@ -133,8 +133,8 @@ div {
 
 .service-card {
   display: grid;
-  // grid-template-columns: auto;
-  // grid-template-rows: auto ;
+  grid-template-columns: auto;
+  grid-template-rows: auto ;
   grid-template-areas: "text";
   margin: 30px;
   padding: 15px 20px;
@@ -143,7 +143,6 @@ div {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left, BLACK, #FFE639);
-
 }
 
 .st{
