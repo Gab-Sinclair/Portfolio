@@ -659,6 +659,14 @@ width:auto;
      }
   }
 
+  @media screen and (max-width:830px) {
+    .service-container {
+      grid-template-columns: auto;
+     }
+
+    
+  }
+
   @media screen and (max-width:770px){
   
     .service-card{
@@ -684,10 +692,7 @@ width:auto;
          
       /* home page div */
 
-      .service-container {
-        grid-template-columns: auto;
-       }
-
+     
     
         #parent{
           min-height: 100%; 
@@ -836,6 +841,7 @@ width:auto;
 
       .service-card{
         margin: 15px 30px;
+        grid-template-columns: 210px;
       }
       
       .st h1{

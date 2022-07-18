@@ -503,6 +503,10 @@ h3 {
   .tagline {
     margin: 15px; } }
 
+@media screen and (max-width: 830px) {
+  .service-container {
+    grid-template-columns: auto; } }
+
 @media screen and (max-width: 770px) {
   .service-card {
     grid-template-columns: 129;
@@ -515,8 +519,6 @@ h3 {
 
 @media screen and (max-width: 700px) {
   /* home page div */
-  .service-container {
-    grid-template-columns: auto; }
   #parent {
     min-height: 100%;
     height: auto;
@@ -598,7 +600,8 @@ h3 {
 
 @media screen and (max-width: 450px) and (max-width: 350px) {
   .service-card {
-    margin: 15px 30px; }
+    margin: 15px 30px;
+    grid-template-columns: 210px; }
   .st h1 {
     font-size: 20px; }
   .st li {
