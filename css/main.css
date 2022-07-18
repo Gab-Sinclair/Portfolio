@@ -505,8 +505,8 @@ h3 {
 
 @media screen and (max-width: 770px) {
   .service-card {
-    grid-template-columns: 160px;
-    grid-template-rows: 300px;
+    grid-template-columns: 129;
+    grid-template-rows: 210;
     padding: 5px 20px; }
   .st ul {
     padding: 0 15px; }
@@ -600,9 +600,9 @@ h3 {
   .service-card {
     margin: 15px 30px; }
   .st h1 {
-    font-size: 30px; }
-  .st li {
     font-size: 20px; }
+  .st li {
+    font-size: 18px; }
   .home-container {
     margin: 0, 10px; }
   .home-card {
