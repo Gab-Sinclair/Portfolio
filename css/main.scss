@@ -124,32 +124,43 @@ div {
     
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  margin:30px;
-  color:black;
-  background-color: white;
+.service-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto ;
+  grid-gap: 10px;
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto ;
+  grid-template-areas: "text";
+  margin: 30px;
+  padding: 15px 20px;
+  text-align: left; 
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, BLACK, #FFE639);
+
+}
+
+.st{
+  grid-area: text;
+}
+
+.st h1{
+  font-size: 40px;
   text-align: center;
-
-
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 20px;
+.st li{
+  font-size: 25px;
 }
 
-#service th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: black;
-  color: white;
 
-}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -646,6 +657,10 @@ width:auto;
          
       /* home page div */
 
+      .service-container {
+        grid-template-columns: auto;
+       }
+    
         #parent{
           min-height: 100%; 
           height: auto;
@@ -791,6 +806,17 @@ width:auto;
 
     @media screen and (max-width: 350px){
 
+      .service-card{
+        margin: 15px 30px;
+      }
+      
+      .st h1{
+      font-size: 30px;
+    }
+    
+    .st li{
+      font-size: 20px;
+    }
 
       .home-container{
         margin: 0, 10px;
