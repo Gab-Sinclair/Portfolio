@@ -483,7 +483,11 @@ h3 {
     display: grid;
     grid-template-columns: auto; }
   .grItem {
-    margin: 5px auto; } }
+    margin: 5px auto; }
+  .st h1 {
+    font-size: 20px; }
+  .st li {
+    font-size: 10px; } }
 
 @media screen and (max-width: 880px) {
   .topnav a.active {

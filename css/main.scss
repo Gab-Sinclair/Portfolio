@@ -629,6 +629,13 @@ width:auto;
   margin:5px auto;
  }
 
+ .st h1{
+  font-size: 20px;
+ }
+
+ .st li{
+  font-size: 10px;
+ }
 }
 
 @media screen and (max-width:880px){
@@ -653,6 +660,7 @@ width:auto;
   }
 
 
+
   @media screen and (max-width: 700px){
          
       /* home page div */
@@ -660,6 +668,7 @@ width:auto;
       .service-container {
         grid-template-columns: auto;
        }
+
     
         #parent{
           min-height: 100%; 
