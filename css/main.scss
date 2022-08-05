@@ -214,75 +214,75 @@ margin-bottom: -10px;
 }
   
 
-
-
-
-
-.modal-container {
-  background-color: rgba(0, 0, 0, 0.4);
-  position: fixed;
+.web-wrapper{
+  background-color:black;
   display: flex;
-  box-align: center;
-  justify-content: center;
-  opacity: 0;
-  overflow: auto;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.modal-container.show {
-  pointer-events: auto;
-  opacity: 1;
-  z-index:1;
-}
-
-
-.modal {
-  background-color: #ffff;
-  width: 800px;
-  height: 100vh;
-  max-width: 100%;
-  padding: 30px 50px;
-  border-radius: 5px;
-  text-align: center;
-  overflow:auto;
-  display:flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20px 0;
 }
 
-.modal h1 {
-  margin: 0;
+
+.web-container{
+  display: grid;
+  grid-template-columns:auto ;
+  grid-gap: 16px;
+  width: 90%;
+  max-width: 1500px;
 }
 
-.modal p {
-  opacity: 0.7;
-  font-size: 14px;
+.web-card {
+  display: grid;
+  grid-template-areas: "image" "text";
+  margin: 8px;
+  padding:30px;
+  background: lightgray;
+  text-align: center;
 }
-.close{
-        display: block;
-        width: 100%;
-        border: none;
-        font-size: 20px;
-        text-decoration: none;
-        color:$darker-color;
-        margin-top:10px;
-        padding: 14px 28px;
-        font-size: 16px;
-        background-color: white;
+img{
+  width:100%;
 }
-.close:hover{
+.Wi{
+  grid-area: image;
+}
+
+.Wt{
+  grid-area: text;
+}
+
+.Wt h1 {
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.seeProject{
+  background-color: black;
+  text-decoration: none;
+  padding:16px;
+  margin:8px;
+  font-size: max(8px, 20px);
   color:white;
-  background-color:$darker-color;
-}
-.shown{
-  overflow: auto;
+  display: block;
+  text-align: center;
 
+    &.accent{
+      background-color: #FFE639;
+      color:black;
+    }
+      
 }
+
+.seeProject:hover{
+  background-color:white;
+  color:black;
+}
+
+
+.Wcent{
+  width:100%;
+  margin:0 auto;
+}
+
 .book{
 height: 500px;
 width:auto;
@@ -532,13 +532,6 @@ width:auto;
 
     
       
-     /*website design div */
-      .wi{
-        width:300px; 
-        height:275px; 
-        border: 2px solid $accent; 
-        background-color:$accent;
-      }
 
   /*Web design id*/
     #web{
@@ -636,6 +629,7 @@ width:auto;
  .st li{
   font-size: 15px;
  }
+
 }
 
 @media screen and (max-width:880px){
@@ -663,7 +657,7 @@ width:auto;
     .service-container {
       grid-template-columns: auto;
      }
-
+  
     
   }
 
@@ -682,6 +676,9 @@ width:auto;
      .st li{
       font-size: 19px;
      }
+     .web-card {
+      padding: 0;
+     }
      
   }
 
@@ -691,8 +688,6 @@ width:auto;
   @media screen and (max-width: 700px){
          
       /* home page div */
-
-     
     
         #parent{
           min-height: 100%; 
@@ -721,7 +716,10 @@ width:auto;
           font-size: 15px;
         }
     
-     /*Grid on web and graphic*/
+     /*Grid on web and graphic*/ 
+      .Wt a{
+      font-size: .7rem;
+      }
           .grid-container {
               display:grid;
               grid-template-columns:auto;
@@ -730,9 +728,9 @@ width:auto;
           .grItem {
               margin:5px auto;
           }
-          .wi {
-              margin:5px auto ;
-           }
+          // .wi {
+          //     margin:5px auto ;
+          //  }
            .gi{
             margin:5px auto ;
            }
@@ -769,6 +767,15 @@ width:auto;
     .whoo{
       font-size:25px;
   }
+
+  .Wt h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+    .Wt a {
+     font-size: .5rem;
+     margin: 0.7em;
+}
     
   }
     
