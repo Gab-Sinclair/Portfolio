@@ -115,6 +115,9 @@ div {
 .st li {
   font-size: 25px; }
 
+.size {
+  width: 40%; }
+
 .wrapper {
   display: flex;
   align-items: center;
