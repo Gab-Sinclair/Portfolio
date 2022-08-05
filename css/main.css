@@ -115,9 +115,6 @@ div {
 .st li {
   font-size: 25px; }
 
-.size {
-  width: 40%; }
-
 .wrapper {
   display: flex;
   align-items: center;
@@ -186,6 +183,9 @@ div {
 
 img {
   width: 100%; }
+
+.size {
+  width: 40%; }
 
 .Wi {
   grid-area: image; }
